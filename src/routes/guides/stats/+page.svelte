@@ -3,6 +3,28 @@
   import { stats } from '$lib/data/characters.js';
 
   let characters = stats;
+  let sortBy = { id: 'name', ascending: true }
+  $: sortSymbol = sortBy.ascending ? '&#x25B4;' : '&#x25BE;';
+	$: sort = (column) => {
+		if (sortBy.id == column) {
+			sortBy.ascending = !sortBy.ascending
+		} else {
+			sortBy.id = column
+			sortBy.ascending = true
+		}
+
+		// Modifier to sorting function for ascending or descending
+		let sortModifier = (sortBy.ascending) ? 1 : -1;
+
+		let sort = (a, b) =>
+			(a[column] < b[column])
+			? -1 * sortModifier
+			: (a[column] > b[column])
+			? 1 * sortModifier
+			: 0;
+
+		characters = characters.sort(sort);
+	}
 </script>
 
 <Container>
@@ -12,20 +34,20 @@
   <table>
     <thead>
       <tr>
-        <th>Character</th>
-        <th>Element</th>
-        <th>HP</th>
-        <th>MP+</th>
-        <th>STR</th>
-        <th>MAG</th>
-        <th>PDF</th>
-        <th>MDF</th>
-        <th>SPD</th>
-        <th>ACC</th>
-        <th>DEX</th>
-        <th>SKL</th>
-        <th>Starting Level</th>
-        <th>Skill</th>
+        <th on:click={sort('name')}>Character {#if sortBy.id == 'name'}{@html sortSymbol}{/if}</th>
+        <th on:click={sort('element')}>Element {#if sortBy.id == 'element'}{@html sortSymbol}{/if}</th>
+        <th on:click={sort('HP')}>HP {#if sortBy.id == 'HP'}{@html sortSymbol}{/if}</th>
+        <th on:click={sort('MP')}>MP+ {#if sortBy.id == 'MP'}{@html sortSymbol}{/if}</th>
+        <th on:click={sort('STR')}>STR {#if sortBy.id == 'STR'}{@html sortSymbol}{/if}</th>
+        <th on:click={sort('MAG')}>MAG {#if sortBy.id == 'MAG'}{@html sortSymbol}{/if}</th>
+        <th on:click={sort('PDF')}>PDF {#if sortBy.id == 'PDF'}{@html sortSymbol}{/if}</th>
+        <th on:click={sort('MDF')}>MDF {#if sortBy.id == 'MDF'}{@html sortSymbol}{/if}</th>
+        <th on:click={sort('SPD')}>SPD {#if sortBy.id == 'SPD'}{@html sortSymbol}{/if}</th>
+        <th on:click={sort('ACC')}>ACC {#if sortBy.id == 'ACC'}{@html sortSymbol}{/if}</th>
+        <th on:click={sort('DEX')}>DEX {#if sortBy.id == 'DEX'}{@html sortSymbol}{/if}</th>
+        <th on:click={sort('SLK')}>SKL {#if sortBy.id == 'SLK'}{@html sortSymbol}{/if}</th>
+        <th on:click={sort('Starting_Level')}>Starting Level {#if sortBy.id == 'Starting_Level'}{@html sortSymbol}{/if}</th>
+        <th on:click={sort('Skill')}>Skill {#if sortBy.id == 'Skill'}{@html sortSymbol}{/if}</th>
       </tr>
     </thead>
     <tbody>
@@ -92,5 +114,6 @@
   }
 
   table tr th {
+    cursor: pointer;
   }
 </style>

@@ -11,15 +11,15 @@ This is a remake of the now down The Hand of Fate website. It's a website dedica
     - [ ] About Exit Fate
     - [ ] Download
     - [ ] Character Guides
-      - [ ] Character Stats List & Rankings
+      - [x] Character Stats List & Rankings
         - [Doc Link](https://docs.google.com/spreadsheets/d/10S3wSmxsoxyIEIabitGac4cjVPrQN4rho-GuIPZu470/edit?usp=sharing)
-      - [ ] Initial Equipment List
+      - [x] Initial Equipment List
         - [Doc Link](https://docs.google.com/spreadsheets/d/1-iiSSKP0zHPA5MxRidliDYlkCLEJRHC2cpt4vFfzJw8/edit?usp=sharing)
       - [ ] Character Relation
         - [ ] Import Original
         - [ ] Combine Original and Doc
         - [ ] [Doc Link](https://docs.google.com/spreadsheets/d/1jN2dahf9XiaYF9W0wR5Cs0TOweGkJQ14GioAbzzZZwo/edit?usp=sharing)
-      - [ ] Special Skills
+      - [x] Special Skills
         - [ ] Add note on Wild Attack section: "Tip: Use Lock status on them so they will not get stunned."
       - [ ] Weapon Levels Guide
       - [ ] War Unit Guide
