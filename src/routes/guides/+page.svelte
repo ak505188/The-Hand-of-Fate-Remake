@@ -18,7 +18,7 @@
   </ul>
   <h4>Items</h4>
   <ul>
-    <li><a href="items">Item List</a></li>
+    <li><a href="/guides/items">Item List</a></li>
     <li><a href="armor">Armor List</a></li>
     <li><a href="accessories">Accessory List</a></li>
     <li><a href="magic">Magic List</a></li>

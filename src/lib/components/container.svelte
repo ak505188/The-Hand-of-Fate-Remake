@@ -19,11 +19,10 @@
     padding: 0.25rem 1rem;
   }
 
-  div > :global(hr) {
+  div > :global(hr.border) {
     height: 2px;
     background: yellow;
     width: calc(100% - 2px * 2);
     margin: 0;
-    padding: 0;
   }
 </style>

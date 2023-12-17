@@ -17,7 +17,14 @@
     color: white;
   }
 
-  :global(ul) {
+  :global(ul, ol) {
     list-style-position: inside;
+  }
+
+  :global(hr) {
+    padding: 0 !important;
+    width: calc(100% - 2rem);
+    height: 2px;
+    background: white;
   }
 </style>
