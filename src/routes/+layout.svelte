@@ -10,7 +10,7 @@
 
 <style>
   :global(body) {
-    background: url('/images/background.jpg');
+    background: #160800 url('/images/background.jpg');
     background-attachment:fixed;
     background-repeat:repeat;
     background-position:center;
