@@ -14,7 +14,6 @@
     background-attachment:fixed;
     background-repeat:repeat;
     background-position:center;
-
     color: white;
   }
 

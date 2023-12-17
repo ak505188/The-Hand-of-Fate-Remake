@@ -6,8 +6,13 @@
   div {
     border: 2px solid yellow;
     border-radius: 5px;
-    margin: .5rem auto;
-    background-color: #160800;
+    margin: 1rem auto;
+    background-color: #400000;
+    max-width: 1200px;
+  }
+
+  div :global(a) {
+    color: #a2b9d3;
   }
 
   div > :global(*) {
