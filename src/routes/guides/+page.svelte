@@ -8,7 +8,7 @@
   <h4>Characters</h4>
   <ul>
     <li><a href="recruit">Recruitment Guide</a></li>
-    <li><a href="stats">Stat Charts</a></li>
+    <li><a href="/guides/stats">Stat Charts</a></li>
     <li><a href="top3">Top 3 Rankings</a></li>
     <li><a href="relations">Relations Guide</a></li>
     <li><a href="weapons">Weapon Levels</a></li>
@@ -34,7 +34,7 @@
   <h4>Miscellaneous</h4>
   <ul>
     <li><a href="menusets">Menu Set List</a></li>
-    <li><a href="battleplans">Battle Plan List</a></li>
+    <li><a href="/guides/battleplans">Battle Plan List</a></li>
     <li><a href="loot">Enemy Loot Guide</a></li>
     <li><a href="bosses">Boss List</a></li>
     <li><a href="gaiasheart">Gaia's Heart Guide</a></li>

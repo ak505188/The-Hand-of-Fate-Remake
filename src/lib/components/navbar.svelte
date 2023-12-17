@@ -19,8 +19,10 @@
   ul {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     margin: 0;
     padding: 0;
+    flex-wrap: wrap;
   }
 
   li {
