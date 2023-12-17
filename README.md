@@ -21,7 +21,7 @@ This is a remake of the now down The Hand of Fate website. It's a website dedica
         - [ ] [Doc Link](https://docs.google.com/spreadsheets/d/1jN2dahf9XiaYF9W0wR5Cs0TOweGkJQ14GioAbzzZZwo/edit?usp=sharing)
       - [x] Special Skills
         - [x] Add note on Wild Attack section: "Tip: Use Lock status on them so they will not get stunned."
-      - [ ] Weapon Levels Guide
+      - [x] Weapon Levels Guide
       - [ ] War Unit Guide
         - (the guide mentioned “-1 ATK” for Sorcery unit, but it’s actually “+1 ATK”, the game incorrectly shows -1 during the unit formation setup page)
         - (might want to also mention about the bug on damage effect abilities, similarly to what’s shown on the glitches guide?)

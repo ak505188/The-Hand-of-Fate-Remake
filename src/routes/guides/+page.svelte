@@ -11,7 +11,7 @@
     <li><a href="/guides/stats">Stat Charts</a></li>
     <li><a href="/guides/initial_equipment">Initial Equipment</a></li>
     <li><a href="relations">Relations Guide</a></li>
-    <li><a href="weapons">Weapon Levels</a></li>
+    <li><a href="/guides/weapons">Weapon Levels</a></li>
     <li><a href="/guides/skills">Special Skills</a></li>
     <li><a href="warunits">War Unit Guide</a></li>
     <li><a href="meiko">Meiko's Interviews</a><br></li>
