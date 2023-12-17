@@ -7,45 +7,45 @@
   <h3>Need help in the game? Want a reference for something? This is where you should be, then.</h3>
   <h4>Characters</h4>
   <ul>
-    <li><a href="grecruit">Recruitment Guide</a></li>
-    <li><a href="gstats">Stat Charts</a></li>
-    <li><a href="gtop3">Top 3 Rankings</a></li>
-    <li><a href="grelations">Relations Guide</a></li>
-    <li><a href="gweapons">Weapon Levels</a></li>
-    <li><a href="gskills">Special Skills</a></li>
-    <li><a href="gwarunits">War Unit Guide</a></li>
-    <li><a href="gmeiko">Meiko's Interviews</a><br></li>
+    <li><a href="recruit">Recruitment Guide</a></li>
+    <li><a href="stats">Stat Charts</a></li>
+    <li><a href="top3">Top 3 Rankings</a></li>
+    <li><a href="relations">Relations Guide</a></li>
+    <li><a href="weapons">Weapon Levels</a></li>
+    <li><a href="skills">Special Skills</a></li>
+    <li><a href="warunits">War Unit Guide</a></li>
+    <li><a href="meiko">Meiko's Interviews</a><br></li>
   </ul>
   <h4>Items</h4>
   <ul>
-    <li><a href="gitems">Item List</a></li>
-    <li><a href="garmor">Armor List</a></li>
-    <li><a href="gaccessories">Accessory List</a></li>
-    <li><a href="gmagic">Magic List</a></li>
-    <li><a href="gchests">Treasure Chest List</a><br></li>
+    <li><a href="items">Item List</a></li>
+    <li><a href="armor">Armor List</a></li>
+    <li><a href="accessories">Accessory List</a></li>
+    <li><a href="magic">Magic List</a></li>
+    <li><a href="chests">Treasure Chest List</a><br></li>
   </ul>
   <h4>Shops</h4>
   <ul>
-    <li><a href="ggeneralstores">General Store List</a></li>
-    <li><a href="gsmiths-weapons">Blacksmith (Weapons) List</a></li>
-    <li><a href="gsmiths-armor">Blacksmith (Armor) List</a></li>
-    <li><a href="gmagicshops">Magic Shop List</li>
+    <li><a href="generalstores">General Store List</a></li>
+    <li><a href="smiths-weapons">Blacksmith (Weapons) List</a></li>
+    <li><a href="smiths-armor">Blacksmith (Armor) List</a></li>
+    <li><a href="magicshops">Magic Shop List</li>
   </ul>
   <h4>Miscellaneous</h4>
   <ul>
-    <li><a href="gmenusets">Menu Set List</a></li>
-    <li><a href="gbattleplans">Battle Plan List</a></li>
-    <li><a href="gloot">Enemy Loot Guide</a></li>
-    <li><a href="gbosses">Boss List</a></li>
-    <li><a href="ggaiasheart">Gaia's Heart Guide</a></li>
-    <li><a href="gshivapassage">Shiva Passage Guide</a></li>
-    <li><a href="gblackjack">Johnny's Blackjack Table</a></li>
-    <li><a href="gerrors">Bugs/Glitches and Mishaps</a><br></li>
+    <li><a href="menusets">Menu Set List</a></li>
+    <li><a href="battleplans">Battle Plan List</a></li>
+    <li><a href="loot">Enemy Loot Guide</a></li>
+    <li><a href="bosses">Boss List</a></li>
+    <li><a href="gaiasheart">Gaia's Heart Guide</a></li>
+    <li><a href="shivapassage">Shiva Passage Guide</a></li>
+    <li><a href="blackjack">Johnny's Blackjack Table</a></li>
+    <li><a href="errors">Bugs/Glitches and Mishaps</a><br></li>
   </ul>
   <h4>Extras</h4>
   <ul>
-    <li><a href="gbgm">BGM List</a></li>
-    <li><a href="gsecrets">Secrets</a></li>
-    <li><a href="gcomic-wanderer">Comic: The Wanderer</a><br></li>
+    <li><a href="bgm">BGM List</a></li>
+    <li><a href="secrets">Secrets</a></li>
+    <li><a href="comic-wanderer">Comic: The Wanderer</a><br></li>
   </ul>
 </Container>
