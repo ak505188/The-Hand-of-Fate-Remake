@@ -5,13 +5,12 @@
 <Container>
   <nav>
     <ul>
-      <li>Home</li>
-      <li>About Exit Fate</li>
-      <li>Plot Introduction</li>
-      <li>Download</li>
+      <li><a href="/">Home</a></li>
+      <li><a href="/about">About Exit Fate</a></li>
+      <li><a href="/download">Download</a></li>
       <li><a href="/guides">Gameplay Guides</a></li>
-      <li>Forum</li>
-      <li>Contact</li>
+      <li><a href="https://www.tapatalk.com/groups/elysium_castle/exit-fate-discussion-f3/">Forum</a></li>
+      <li><a href="/contact">Contact</a></li>
     </ul>
   </nav>
 </Container>
