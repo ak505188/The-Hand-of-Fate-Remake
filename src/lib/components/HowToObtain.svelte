@@ -1,4 +1,6 @@
-<details>
+<!-- svelte-ignore a11y-click-events-have-key-events -->
+<!-- svelte-ignore a11y-no-noninteractive-element-interactions -->
+<details on:click={({ target }) => target.open = !target.open}>
   <summary>How To Obtain</summary>
   <slot/>
 </details>

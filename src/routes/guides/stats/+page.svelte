@@ -30,6 +30,8 @@
 <Container>
   <h2>Character Stats</h2>
   <p>This table shows the base stats values for each characters. The actual stats are calculated based on the level and their base stat. 100 is the baseline (e.g. 120 base STR means they have 20% higher STR than average at all levels). Refer to the game mechanics formulas guide to calculate the exact stats for each characters based on their levels & equipment.</p>
+
+  <aside>Click on a column header to sort by that column.</aside>
   <div class="table-wrapper">
   <table>
     <thead>
