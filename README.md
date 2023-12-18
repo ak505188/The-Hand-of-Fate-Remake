@@ -32,7 +32,8 @@ This is a remake of the now down The Hand of Fate website. It's a website dedica
         - [Doc Link](https://docs.google.com/document/d/1iQFxU6j2krs8LQ_as9YlnTbU-n8wddUvEWZfIYGMp6g/edit?usp=sharing)
     - [ ] Item Guides
       - [x] Items List (don't need to show locations of special items, cause it's already listed on the recruitment guides?)
-      - [ ] Armor List
+      - [x] Armor List
+        - [ ] Mobile styling
       - [ ] Accessory List
       - [ ] Magic List
       - [ ] Magic Crystal List
