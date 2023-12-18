@@ -1,4 +1,5 @@
 <script>
+  import HowToObtain from '$lib/components/HowToObtain.svelte';
   export let armor;
 </script>
 
@@ -22,8 +23,7 @@
         <td>
           {item.description || ''}
           {#if item.how_to_obtain}
-            {item.description ? ' | ' : ''}
-            <span title="{item.how_to_obtain}">How to Obtain</span>
+            <HowToObtain>{item.how_to_obtain}</HowToObtain>
           {/if}
         </td>
       </tr>
@@ -48,9 +48,5 @@
 
   td.name, th.name {
     min-width: 12rem;
-  }
-
-  td span {
-    color: #a2b9d3;
   }
 </style>

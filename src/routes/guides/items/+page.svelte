@@ -1,5 +1,6 @@
 <script>
   import Container from '$lib/components/container.svelte';
+  import HowToObtain from '$lib/components/HowToObtain.svelte';
 </script>
 
 <Container>
@@ -41,7 +42,7 @@
       </tr>
       <tr>
         <td>Holy Grail</td>
-        <td>Heals ? HP for user (re-usable) | <span title="Defeat Pentdragon in Avalon">How to Obtain</span></td>
+        <td>Heals ? HP for user (re-usable) | <HowToObtain>Defeat Pentdragon in Avalon</HowToObtain></td>
       </tr>
     </tbody>
   </table>
@@ -137,7 +138,7 @@
       </tr>
       <tr>
         <td>Spectral Prism</td>
-        <td>Non-elemental damage vs. enemy | <span title="Bring Rainbow Ore to Darwin, return 10-15 minutes later">How to Obtain</span></td>
+        <td>Non-elemental damage vs. enemy | <HowToObtain>Bring Rainbow Ore to Darwin, return 10-15 minutes later</HowToObtain></td>
       </tr>
     </tbody>
   </table>
@@ -214,9 +215,5 @@
 
   td:first-child {
     min-width: 10rem;
-  }
-
-  td span {
-    color: #a2b9d3;
   }
 </style>
