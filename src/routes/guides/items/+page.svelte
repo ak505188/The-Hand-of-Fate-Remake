@@ -1,6 +1,6 @@
 <script>
   import Container from '$lib/components/container.svelte';
-  import HowToObtain from '$lib/components/HowToObtain.svelte';
+  import Spoiler from '$lib/components/Spoiler.svelte';
 </script>
 
 <Container>
@@ -42,7 +42,7 @@
       </tr>
       <tr>
         <td>Holy Grail</td>
-        <td>Heals ? HP for user (re-usable) <HowToObtain>Defeat Pentdragon in Avalon</HowToObtain></td>
+        <td>Heals ? HP for user (re-usable) <Spoiler>Defeat Pentdragon in Avalon</Spoiler></td>
       </tr>
     </tbody>
   </table>
@@ -138,7 +138,7 @@
       </tr>
       <tr>
         <td>Spectral Prism</td>
-        <td>Non-elemental damage vs. enemy <HowToObtain>Bring Rainbow Ore to Darwin, return 10-15 minutes later</HowToObtain></td>
+        <td>Non-elemental damage vs. enemy <Spoiler>Bring Rainbow Ore to Darwin, return 10-15 minutes later</Spoiler></td>
       </tr>
     </tbody>
   </table>

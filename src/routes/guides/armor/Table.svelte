@@ -1,5 +1,5 @@
 <script>
-  import HowToObtain from '$lib/components/HowToObtain.svelte';
+  import Spoiler from '$lib/components/Spoiler.svelte';
   export let armor;
 </script>
 
@@ -23,7 +23,7 @@
         <td>
           {item.description || ''}
           {#if item.how_to_obtain}
-            <HowToObtain>{item.how_to_obtain}</HowToObtain>
+            <Spoiler>{item.how_to_obtain}</Spoiler>
           {/if}
         </td>
       </tr>
