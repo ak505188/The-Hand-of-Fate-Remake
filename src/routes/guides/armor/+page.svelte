@@ -6,14 +6,8 @@
 
 <Container>
   <h2>Exit Fate: Armor List</h2>
-  <hr>
-  <ul>
-    <li>
-      Note: "Special" armor is unobtainable from shops. Hover over highlighted text for how to obtain the items.</li>
-    <li>
-      Note 2: * = The in-game item information is incorrect. The values listed here are the corrected values.
-    </li>
-  </ul>
+  <hr class="border">
+  <aside>* = The in-game item information is incorrect. The values listed here are the corrected values.</aside>
   <h3>Robes</h3>
   <Table armor={Robes}/>
   <h3>Light_Armor</h3>
