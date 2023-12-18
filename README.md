@@ -35,7 +35,7 @@ This is a remake of the now down The Hand of Fate website. It's a website dedica
       - [x] Armor List
         - [ ] Mobile styling
       - [x] Accessory List
-      - [ ] Magic List
+      - [x] Magic List
       - [ ] Magic Crystal List
         - [Doc Link](https://docs.google.com/document/d/1VrYarRlOR5G0cv853L-S5BDgXyjPfrrCGlfyysjMoIg/edit?usp=sharing)
       - [ ] Treasure Chest List

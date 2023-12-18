@@ -41,9 +41,9 @@
   </p>
   <p>As for elemental properties, elements dominate each other in pairs:</p>
   <ul>
-    <li><span style="color:#00ffff">Light</span> &#9472;&#9658; <span style="color:#9966cc">Dark</span></li>
-    <li><span style="color:#ff0000">Fire</span> &#9668;&#9472;&#9658; <span style="color:#ffffff">Ice</span></li>
-    <li><span style="color:#0070ff">Water</span> &#9668;&#9472;&#9658; <span style="color:#ffff00">Lightning</span></li>
+    <li><span style="color:var(--element-light)">Light</span> &#9472;&#9658; <span style="color:var(--element-dark)">Dark</span></li>
+    <li><span style="color:var(--element-fire)">Fire</span> &#9668;&#9472;&#9658; <span style="color:var(--element-ice)">Ice</span></li>
+    <li><span style="color:var(--element-water)">Water</span> &#9668;&#9472;&#9658; <span style="color:var(--element-lightning)">Lightning</span></li>
   </ul>
   <p>
     In wording, each element has an offensive advantage against its opposite, but a defensive disadvantage in turn. On the other hand, an element aimed at a target of the same element will do slightly less than normal damage.
