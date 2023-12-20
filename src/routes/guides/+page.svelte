@@ -22,7 +22,7 @@
     <li><a href="/guides/armor">Armor List</a></li>
     <li><a href="/guides/accessories">Accessory List</a></li>
     <li><a href="/guides/magic">Magic List</a></li>
-    <li><a href="chests">Treasure Chest List</a><br></li>
+    <li><a href="/guides/chests">Treasure Chest List</a><br></li>
   </ul>
   <h4>Shops</h4>
   <ul>
