@@ -36,12 +36,14 @@ This is a remake of the now down The Hand of Fate website. It's a website dedica
         - [ ] Mobile styling
       - [x] Accessory List
       - [x] Magic List
-      - [ ] Magic Crystal List
+      - [x] Magic Crystal List
         - [Doc Link](https://docs.google.com/document/d/1VrYarRlOR5G0cv853L-S5BDgXyjPfrrCGlfyysjMoIg/edit?usp=sharing)
-      - [ ] Treasure Chest List
-        - [ ] Don’t need to show the “500 Arn” on Treasure Island, since that’s just part of story cutscene
-        - [ ] For Avalon, need an extra note for the last two chests, that they’re only accessible by obtaining the Ornate Key item from a bookshelf on a different room
-        - [ ] There’s a typo on “Nocturne Keep” name, it should be “Nocturn Keep”
+      - [x] Treasure Chest List
+        - [x] Don’t need to show the “500 Arn” on Treasure Island, since that’s just part of story cutscene
+        - [x] For Avalon, need an extra note for the last two chests, that they’re only accessible by obtaining the Ornate Key item from a bookshelf on a different room
+        - [x] There’s a typo on “Nocturne Keep” name, it should be “Nocturn Keep”
+        - [ ] Implement image modal
+        - [ ] Find better way to display tips
     - [ ] Item Guides
       - [ ] General Store List
       - [ ] Blacksmit (Weapons) List
