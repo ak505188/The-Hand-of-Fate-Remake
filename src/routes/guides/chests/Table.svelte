@@ -1,4 +1,5 @@
 <script>
+  import Spoiler from '$lib/components/Spoiler.svelte';
   export let title = 'Location';
   export let chests = [];
   export let tip = null;
@@ -18,7 +19,7 @@
   <h3>
     {title}
     {#if tip}
-      <span>{tip}</span>
+      <Spoiler title="[?]">{tip}</Spoiler>
     {/if}
   </h3>
   <table>

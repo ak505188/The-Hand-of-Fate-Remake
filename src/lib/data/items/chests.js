@@ -61,7 +61,6 @@ export default [
       { name: 'Ice Cube' },
       { name: 'Silver Dust' },
       { name: 'Clearsight' },
-      { name: '500 Arn' },
     ]
   },
   {
@@ -182,6 +181,7 @@ export default [
   },
   {
     location: 'Lost City of Avalon',
+    tip: 'Last 2 chests only accessible by obtaining the Ornate Key item from a bookshelf in a different room',
     chests: [
       { name: 'Templar Helmet' },
       { name: 'Waterfall' },
@@ -317,7 +317,7 @@ export default [
     ]
   },
   {
-    location: 'Nocturne_Keep',
+    location: 'Nocturn Keep',
     chests: [
       { name: 'Diamond Dust' },
       { name: 'Shield' },
@@ -335,7 +335,7 @@ export default [
     ]
   },
   {
-    location: 'Shadow_Clan',
+    location: 'Shadow Clan',
     chests: [
       { name: 'Ninja Gear' },
       { name: 'Shockfield' },

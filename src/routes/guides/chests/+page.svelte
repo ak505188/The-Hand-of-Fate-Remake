@@ -9,7 +9,7 @@
   <hr class="border">
   <section>
     {#each Chests as chests}
-      <Table title={chests.location} chests={chests.chests}/>
+      <Table title={chests.location} tip={chests.tip} chests={chests.chests}/>
     {/each}
   </section>
 </Container>
