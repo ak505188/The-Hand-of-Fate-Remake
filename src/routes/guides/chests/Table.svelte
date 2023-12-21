@@ -4,8 +4,6 @@
   export let tip = null;
 
   const strToPath = (str, space_replacement = '_') => {
-    console.log(str, space_replacement);
-
     const new_str = str
     .toLowerCase()
     .replace(/\s/g, space_replacement)
