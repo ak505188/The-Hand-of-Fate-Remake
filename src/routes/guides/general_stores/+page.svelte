@@ -1,23 +1,23 @@
 <script>
   import Container from '$lib/components/container.svelte';
   import Table from './Table.svelte';
-  import Chests from '$lib/data/items/chests.js';
+  import Shops from '$lib/data/shops/general.js';
 </script>
 
 <Container>
-  <h2>Exit Fate: Treasure Chest List</h2>
+  <h2>Exit Fate: General Store List</h2>
   <hr class="border">
+  <p>
+    Note: Once Bartolli is recruited, Elysium Castle's general store will stock all of the items and accessories you've seen in shops, and will update each time you find new wares in stores.
+  </p>
   <section>
-    {#each Chests as chests}
-      <Table title={chests.location} tip={chests.tip} chests={chests.chests}/>
+    {#each Shops as shop}
+      <Table shop={shop}/>
     {/each}
   </section>
 </Container>
 
 <style>
-  table {
-
-  }
   section {
     display: flex;
     flex-direction: row;

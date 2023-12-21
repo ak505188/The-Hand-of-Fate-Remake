@@ -45,9 +45,9 @@ This is a remake of the now down The Hand of Fate website. It's a website dedica
         - [ ] Implement image modal
         - [ ] Find better way to display tips
     - [ ] Item Guides
-      - [ ] General Store List
-      - [ ] Blacksmit (Weapons) List
-      - [ ] Blacksmit (Armors) List
+      - [x] General Store List
+      - [x] Blacksmith (Weapons) List
+      - [ ] Blacksmith (Armors) List
       - [ ] Magic Shop List
         - [ ] St. Reinard magic shop is missing from this list. It sells “Heal” + Tal Gren items + Ashton Port items
     - [ ] Miscellaneous Guides

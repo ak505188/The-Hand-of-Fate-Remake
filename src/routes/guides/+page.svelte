@@ -27,8 +27,8 @@
   </ul>
   <h4>Shops</h4>
   <ul>
-    <li><a href="generalstores">General Store List</a></li>
-    <li><a href="smiths-weapons">Blacksmith (Weapons) List</a></li>
+    <li><a href="/guides/general_stores">General Store List</a></li>
+    <li><a href="/guides/smiths_weapons">Blacksmith (Weapons) List</a></li>
     <li><a href="smiths-armor">Blacksmith (Armor) List</a></li>
     <li><a href="magicshops">Magic Shop List</li>
   </ul>
