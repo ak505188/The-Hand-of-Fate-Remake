@@ -5,7 +5,7 @@
 
 <Container>
   <h2>Battleplans</h2>
-  <hr>
+  <hr class="border">
   <p>
     Battle Plans are special items that allow you to simulate previously fought strategic battles, as well as unique battles not played elsewhere in the game, provided you have Merrick recruited. Whenever you find new Battle Plans, just talk to him (west 1st floor of the castle), and he'll allow you to play out these battles.
   </p>
