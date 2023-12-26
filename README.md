@@ -51,7 +51,7 @@ This is a remake of the now down The Hand of Fate website. It's a website dedica
       - [x] Magic Shop List
         - [x] St. Reinard magic shop is missing from this list. It sells “Heal” + Tal Gren items + Ashton Port items
     - [ ] Miscellaneous Guides
-      - [ ] Gameplay Tips
+      - [x] Gameplay Tips
         - [Doc Link](https://docs.google.com/document/d/1miT-mg7vmI-H2t-K8yAK0rIaY3z1oOoyL1P0f8-TVpc/edit?usp=sharing)
       - [ ] Menu Set List
       - [ ] Battle Plan List
