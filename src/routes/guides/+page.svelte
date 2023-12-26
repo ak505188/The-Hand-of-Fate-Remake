@@ -37,8 +37,8 @@
     <li><a href="/guides/gameplay_tips">Gameplay Tips</a></li>
     <li><a href="/guides/menusets">Menu Set List</a></li>
     <li><a href="/guides/battleplans">Battle Plan List</a></li>
-    <li><a href="loot">Enemy Loot Guide</a></li>
-    <li><a href="bosses">Boss List</a></li>
+    <li><a href="/guides/enemy_loot">Enemy Loot Guide</a></li>
+    <li><a href="/guides/bosses">Boss List</a></li>
     <li><a href="gaiasheart">Gaia's Heart Guide</a></li>
     <li><a href="shivapassage">Shiva Passage Guide</a></li>
     <li><a href="blackjack">Johnny's Blackjack Table</a></li>

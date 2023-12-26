@@ -53,10 +53,15 @@ This is a remake of the now down The Hand of Fate website. It's a website dedica
     - [ ] Miscellaneous Guides
       - [x] Gameplay Tips
         - [Doc Link](https://docs.google.com/document/d/1miT-mg7vmI-H2t-K8yAK0rIaY3z1oOoyL1P0f8-TVpc/edit?usp=sharing)
-      - [ ] Menu Set List
-      - [ ] Battle Plan List
+      - [x] Menu Set List
+      - [x] Battle Plan List
+      - [x] Enemy Loot Guide
+        - [ ] Make table mobile responsive
+      - [ ] Boss List
       - [ ] Gaia's Heart Guide
       - [ ] Shiva Passage Guide
+      - [ ] Johnny's Blackjack Table
+      - [x] Bugs/Glitches and Mishaps will go into Extras
     - [ ] Extras
       - [ ] Meiko's Interviews
         - [Doc Link](https://docs.google.com/document/d/1jhBzmHvvOIau-0_Il2jntIN0lZEFnjHcnBHL3ptSJFQ/edit?usp=sharing)
