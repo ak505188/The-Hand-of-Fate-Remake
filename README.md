@@ -44,12 +44,12 @@ This is a remake of the now down The Hand of Fate website. It's a website dedica
         - [x] There’s a typo on “Nocturne Keep” name, it should be “Nocturn Keep”
         - [ ] Implement image modal
         - [ ] Find better way to display tips
-    - [ ] Item Guides
+    - [x] Shop Guides
       - [x] General Store List
       - [x] Blacksmith (Weapons) List
-      - [ ] Blacksmith (Armors) List
-      - [ ] Magic Shop List
-        - [ ] St. Reinard magic shop is missing from this list. It sells “Heal” + Tal Gren items + Ashton Port items
+      - [x] Blacksmith (Armors) List
+      - [x] Magic Shop List
+        - [x] St. Reinard magic shop is missing from this list. It sells “Heal” + Tal Gren items + Ashton Port items
     - [ ] Miscellaneous Guides
       - [ ] Gameplay Tips
         - [Doc Link](https://docs.google.com/document/d/1miT-mg7vmI-H2t-K8yAK0rIaY3z1oOoyL1P0f8-TVpc/edit?usp=sharing)

@@ -153,6 +153,32 @@ const Magic = [
     ]
   },
   {
+    town: "St. Reinard",
+    items: [
+      { element: Elements.Light, name: 'Heal', cost: 75000 },
+      { element: Elements.Light, name: 'Regen', cost: 32000 },
+      { element: Elements.Dark, name: 'Lock', cost: 32000 },
+      { element: Elements.Fire, name: 'Haste', cost: 32000 },
+      { element: Elements.Ice, name: 'Barrier', cost: 32000 },
+      { element: Elements.Water, name: 'Shield', cost: 32000 },
+      { element: Elements.Lightning, name: 'Blink', cost: 32000 },
+      { element: Elements.Light, name: 'Cure-All', cost: 30000 },
+      { element: Elements.Light, name: 'Cure', cost: 12500 },
+      { element: Elements.Light, name: 'Lightshield', cost: 17500 },
+      { element: Elements.Dark, name: 'Darkshield', cost: 17500 },
+      { element: Elements.Fire, name: 'Fireshield', cost: 17500 },
+      { element: Elements.Ice, name: 'Iceshield', cost: 17500 },
+      { element: Elements.Water, name: 'Watershield', cost: 17500 },
+      { element: Elements.Lightning, name: 'Lightningshield', cost: 17500 },
+      { element: Elements.Light, name: 'Lightstrike', cost: 10000 },
+      { element: Elements.Dark, name: 'Darkstrike', cost: 10000 },
+      { element: Elements.Fire, name: 'Firestrike', cost: 10000 },
+      { element: Elements.Ice, name: 'Icestrike', cost: 10000 },
+      { element: Elements.Water, name: 'Waterstrike', cost: 10000 },
+      { element: Elements.Lightning, name: 'Lightningstrike', cost: 10000 },
+    ]
+  },
+  {
     town: "Jotunheim",
     items: [
       { element: Elements.Light, name: 'Heal-All', cost: 320000 },
