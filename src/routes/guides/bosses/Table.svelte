@@ -19,7 +19,7 @@
         <td colspan=2>LVL {boss.LVL || '??'}</td><td/>
       </tr>
       <tr>
-        <td colspan=2>HP {boss.HP || '??'}</td><td/>
+        <td colspan=2>HP {boss.HP || '??'}{boss.estimated ? ' *' : ''}</td><td/>
       </tr>
       <tr>
         <td>STR {boss.STR || '??'}</td>
