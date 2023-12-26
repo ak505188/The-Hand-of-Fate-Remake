@@ -18,3 +18,12 @@
 {:else}
   <span/>
 {/if}
+
+<style>
+  span {
+    display: inline-block;
+    text-align: center;
+    min-width: 1rem;
+    margin-left: -2px;
+  }
+</style>

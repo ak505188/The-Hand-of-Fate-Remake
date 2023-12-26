@@ -30,7 +30,7 @@
     <li><a href="/guides/general_stores">General Store List</a></li>
     <li><a href="/guides/smiths_weapons">Blacksmith (Weapons) List</a></li>
     <li><a href="/guides/smiths_armor">Blacksmith (Armor) List</a></li>
-    <li><a href="magicshops">Magic Shop List</li>
+    <li><a href="/guides/magic_shops">Magic Shop List</li>
   </ul>
   <h4>Miscellaneous</h4>
   <ul>
