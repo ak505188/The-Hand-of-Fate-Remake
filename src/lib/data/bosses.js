@@ -6,7 +6,8 @@ const Bosses = [
     name: "Bandit Lord",
     element: Elements.Dark,
     location: "Bandit Cave",
-    HP: '450*',
+    estimated: true,
+    HP: 450,
     arn: 53,
     note: "Scan unavailable",
   },
@@ -68,7 +69,8 @@ const Bosses = [
     name: "Ninja",
     element: Elements.Water,
     location: "Elysium Castle",
-    HP: '200*',
+    estimated: true,
+    HP: 200,
     arn: 0,
     note: "Solo battle, Daniel-only",
   },
@@ -332,8 +334,8 @@ const Bosses = [
     DEX: 65,
     MDF: 69,
     steal: "Darkstrike",
-    Arn,"5,000 Arn
-Charged Jet"
+    arn: 5000,
+    drop: "Charged Jet",
   },
   {
     type: "Chapter 6",

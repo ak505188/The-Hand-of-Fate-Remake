@@ -6,6 +6,7 @@
 
 <Container>
   <h2>Exit Fate: Enemy Loot Guide</h2>
+  <hr class="border">
   <p>
     Looking for a good area to amass funds for those expensive weapon upgrades? Or perhaps you're looking for an enemy carrying a particular item? Scanning and unnecessary failed attempts at stealing can be rather time- consuming, so why not avoid that as much as possible? To help with that, here's a guide containing all the information you'll need for the hunt.
   </p>
