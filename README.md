@@ -57,8 +57,8 @@ This is a remake of the now down The Hand of Fate website. It's a website dedica
       - [x] Battle Plan List
       - [x] Enemy Loot Guide
         - [ ] Make table mobile responsive
-      - [ ] Boss List
-      - [ ] Gaia's Heart Guide
+      - [x] Boss List
+      - [x] Gaia's Heart Guide
       - [ ] Shiva Passage Guide
       - [ ] Johnny's Blackjack Table
       - [x] Bugs/Glitches and Mishaps will go into Extras

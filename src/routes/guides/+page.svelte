@@ -39,7 +39,7 @@
     <li><a href="/guides/battleplans">Battle Plan List</a></li>
     <li><a href="/guides/enemy_loot">Enemy Loot Guide</a></li>
     <li><a href="/guides/bosses">Boss List</a></li>
-    <li><a href="gaiasheart">Gaia's Heart Guide</a></li>
+    <li><a href="/guides/gaias_heart">Gaia's Heart Guide</a></li>
     <li><a href="shivapassage">Shiva Passage Guide</a></li>
     <li><a href="blackjack">Johnny's Blackjack Table</a></li>
     <li><a href="errors">Bugs/Glitches and Mishaps</a><br></li>
