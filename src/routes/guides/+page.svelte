@@ -47,7 +47,7 @@
   <h4>Extras</h4>
   <ul>
     <li><a href="bgm">BGM List</a></li>
-    <li><a href="secrets">Secrets</a></li>
+    <li><a href="/guides/secrets">Secrets</a></li>
     <li><a href="comic-wanderer">Comic: The Wanderer</a><br></li>
   </ul>
 </Container>
