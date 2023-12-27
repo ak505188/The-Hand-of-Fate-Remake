@@ -56,8 +56,9 @@ This is a remake of the now down The Hand of Fate website. It's a website dedica
       - [x] Menu Set List
       - [x] Battle Plan List
       - [x] Enemy Loot Guide
-        - [ ] Make table mobile responsive
+        - [ ] Remove this, obsoleted by Enemies List
       - [x] Boss List
+        - [ ] Remove this, obsoleted by Enemies List
       - [x] Gaia's Heart Guide
       - [x] Shiva Passage Guide
       - [x] Johnny's Blackjack Table
@@ -67,15 +68,16 @@ This is a remake of the now down The Hand of Fate website. It's a website dedica
         - [Doc Link](https://docs.google.com/document/d/1jhBzmHvvOIau-0_Il2jntIN0lZEFnjHcnBHL3ptSJFQ/edit?usp=sharing)
         - srd left more instructions for this page
       - [ ] Secrets
-        - [ ] Remove the s21 name at the end, was srd's old account name
-      - [ ] BGM List
-        - [ ] Bayside music is mistakenly listed as “Final Fantasy XI” when it’s should be “IX”
-        - [ ] Cento music is mistakenly listed as “Due Fiumi”, when it’s actually “Two Rivers”
-        - [ ] Bugs/Glitches and Mishaps
-          - [Doc Link](https://docs.google.com/document/d/11shq2RivooaDxLwwdNfgaxng2JzfaLLT91S3h5MnuT0/edit?usp=sharing)
-        - [ ] Game Mechanics Formulas
-          - [Doc Link](https://docs.google.com/document/d/1E5Bd5KcVg8OTjkW-Fr4lI4MPqLQ6QiuHFqVryonAEeE/edit?usp=sharing)
-        - [ ] Comic: The Wanderer
+        - [ ] Add images and formatting
+        - [x] Remove the s21 name at the end, was srd's old account name
+      - [x] BGM List
+        - [x] Bayside music is mistakenly listed as “Final Fantasy XI” when it’s should be “IX”
+        - [x] Cento music is mistakenly listed as “Due Fiumi”, when it’s actually “Two Rivers”
+      - [ ] Bugs/Glitches and Mishaps
+        - [Doc Link](https://docs.google.com/document/d/11shq2RivooaDxLwwdNfgaxng2JzfaLLT91S3h5MnuT0/edit?usp=sharing)
+      - [ ] Game Mechanics Formulas
+        - [Doc Link](https://docs.google.com/document/d/1E5Bd5KcVg8OTjkW-Fr4lI4MPqLQ6QiuHFqVryonAEeE/edit?usp=sharing)
+      - [ ] Comic: The Wanderer
   - [x] Forum
   - [ ] Contact
 
