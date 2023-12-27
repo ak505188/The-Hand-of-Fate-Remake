@@ -59,8 +59,8 @@ This is a remake of the now down The Hand of Fate website. It's a website dedica
         - [ ] Make table mobile responsive
       - [x] Boss List
       - [x] Gaia's Heart Guide
-      - [ ] Shiva Passage Guide
-      - [ ] Johnny's Blackjack Table
+      - [x] Shiva Passage Guide
+      - [x] Johnny's Blackjack Table
       - [x] Bugs/Glitches and Mishaps will go into Extras
     - [ ] Extras
       - [ ] Meiko's Interviews
