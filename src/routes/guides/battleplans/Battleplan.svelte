@@ -49,10 +49,10 @@
   ol li:nth-child(1)::marker {
     color: #fbec5d;
   }
-  ol li:nth-child(1)::marker {
+  ol li:nth-child(2)::marker {
     color: #6495ed;
   }
-  ol li:nth-child(1)::marker {
+  ol li:nth-child(3)::marker {
     color: #ace1af;
   }
 </style>

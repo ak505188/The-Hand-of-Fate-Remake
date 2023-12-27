@@ -16,6 +16,7 @@
     --element-ice: #ffffff;
     --element-water: #0070ff;
     --element-lightning: #ffff00;
+    --color-text-alt: #a2b9d3;
   }
 
   :global(body) {

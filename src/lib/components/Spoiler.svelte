@@ -12,7 +12,7 @@
 <style>
   details {
     display: inline;
-    color: #a2b9d3;
+    color: var(--color-text-alt);
     cursor: pointer;
   }
 
