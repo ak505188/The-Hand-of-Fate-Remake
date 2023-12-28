@@ -1,6 +1,5 @@
 <script>
   import Container from '$lib/components/container.svelte';
-	import Page from '../+page.svelte';
 </script>
 
 <Container>

@@ -76,7 +76,8 @@ This is a remake of the now down The Hand of Fate website. It's a website dedica
         - [ ] Mobile responsive
       - [x] Bugs/Glitches and Mishaps
         - [Doc Link](https://docs.google.com/document/d/11shq2RivooaDxLwwdNfgaxng2JzfaLLT91S3h5MnuT0/edit?usp=sharing)
-      - [ ] Game Mechanics Formulas
+      - [x] Game Mechanics Formulas
+        - [ ] Make math formulas look good.
         - [Doc Link](https://docs.google.com/document/d/1E5Bd5KcVg8OTjkW-Fr4lI4MPqLQ6QiuHFqVryonAEeE/edit?usp=sharing)
       - [ ] Comic: The Wanderer
   - [x] Forum
