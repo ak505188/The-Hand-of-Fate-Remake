@@ -16,7 +16,7 @@
   }
 
   div > :global(*) {
-    padding: 0.25rem 1rem;
+    padding: 0 1rem;
   }
 
   div > :global(hr.border) {

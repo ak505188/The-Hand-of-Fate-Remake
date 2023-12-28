@@ -42,7 +42,7 @@
     <li><a href="/guides/gaias_heart">Gaia's Heart Guide</a></li>
     <li><a href="/guides/shiva_passage">Shiva Passage Guide</a></li>
     <li><a href="/guides/blackjack">Johnny's Blackjack Table</a></li>
-    <li><a href="errors">Bugs/Glitches and Mishaps</a><br></li>
+    <li><a href="/guides/errors">Bugs/Glitches and Mishaps</a><br></li>
   </ul>
   <h4>Extras</h4>
   <ul>

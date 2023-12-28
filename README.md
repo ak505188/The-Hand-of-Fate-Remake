@@ -73,7 +73,8 @@ This is a remake of the now down The Hand of Fate website. It's a website dedica
       - [x] BGM List
         - [x] Bayside music is mistakenly listed as “Final Fantasy XI” when it’s should be “IX”
         - [x] Cento music is mistakenly listed as “Due Fiumi”, when it’s actually “Two Rivers”
-      - [ ] Bugs/Glitches and Mishaps
+        - [ ] Mobile responsive
+      - [x] Bugs/Glitches and Mishaps
         - [Doc Link](https://docs.google.com/document/d/11shq2RivooaDxLwwdNfgaxng2JzfaLLT91S3h5MnuT0/edit?usp=sharing)
       - [ ] Game Mechanics Formulas
         - [Doc Link](https://docs.google.com/document/d/1E5Bd5KcVg8OTjkW-Fr4lI4MPqLQ6QiuHFqVryonAEeE/edit?usp=sharing)
