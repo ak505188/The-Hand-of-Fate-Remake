@@ -8,11 +8,12 @@ This is a remake of the now down The Hand of Fate website. It's a website dedica
 - [ ] Pages
   - [ ] Index
   - [x] About
-  - [ ] Download
+  - [x] Download
   - [ ] Guides
-    - [ ] Recruitment Guide
-    - [ ] About Exit Fate
-    - [ ] Download
+    - [x] Recruitment Guide
+      - [ ] Improve formatting
+    - [x] About Exit Fate
+      - [ ] For font section, use that font on site?
     - [ ] Character Guides
       - [x] Character Stats List & Rankings
         - [Doc Link](https://docs.google.com/spreadsheets/d/10S3wSmxsoxyIEIabitGac4cjVPrQN4rho-GuIPZu470/edit?usp=sharing)
