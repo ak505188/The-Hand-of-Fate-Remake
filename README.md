@@ -1,6 +1,9 @@
 ## About
 This is a remake of the now down The Hand of Fate website. It's a website dedicated to providing information & guides for the game Exit Fate created by SCF. You can view the old website [here](https://web.archive.org/web/20170802024940/http://exitfate.webs.com/index.htm)
 
+### Instructions
+[Doc](https://docs.google.com/document/d/1eDxnn6AaU0mFWePfqdkS4Z7PFHT39Wv5yrANILTcMKQ/edit)
+
 ### Progress Checklist
 - [ ] Pages
   - [ ] Index

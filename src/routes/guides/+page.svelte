@@ -7,7 +7,7 @@
   <h3>Need help in the game? Want a reference for something? This is where you should be, then.</h3>
   <h4>Characters</h4>
   <ul>
-    <li><a href="recruit">Recruitment Guide</a></li>
+    <li><a href="/guides/recruit">Recruitment Guide</a></li>
     <li><a href="/guides/stats">Stat Charts</a></li>
     <li><a href="/guides/initial_equipment">Initial Equipment</a></li>
     <li><a href="relations">Relations Guide</a></li>
