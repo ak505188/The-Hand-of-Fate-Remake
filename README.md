@@ -19,10 +19,11 @@ This is a remake of the now down The Hand of Fate website. It's a website dedica
         - [Doc Link](https://docs.google.com/spreadsheets/d/10S3wSmxsoxyIEIabitGac4cjVPrQN4rho-GuIPZu470/edit?usp=sharing)
       - [x] Initial Equipment List
         - [Doc Link](https://docs.google.com/spreadsheets/d/1-iiSSKP0zHPA5MxRidliDYlkCLEJRHC2cpt4vFfzJw8/edit?usp=sharing)
-      - [ ] Character Relation
-        - [ ] Import Original
-        - [ ] Combine Original and Doc
-        - [ ] [Doc Link](https://docs.google.com/spreadsheets/d/1jN2dahf9XiaYF9W0wR5Cs0TOweGkJQ14GioAbzzZZwo/edit?usp=sharing)
+      - [x] Character Relation
+        - [x] Import Original
+        - [x] Combine Original and Doc
+        - [x] [Doc Link](https://docs.google.com/spreadsheets/d/1jN2dahf9XiaYF9W0wR5Cs0TOweGkJQ14GioAbzzZZwo/edit?usp=sharing)
+        - [ ] Make tables look better
       - [x] Special Skills
         - [x] Add note on Wild Attack section: "Tip: Use Lock status on them so they will not get stunned."
       - [x] Weapon Levels Guide
