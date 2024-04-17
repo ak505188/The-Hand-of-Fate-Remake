@@ -798,7 +798,6 @@ export const stats = [
     SKL: 100,
     Starting_Level: 18,
     Skill: 'Row Strike'
-  },
   {
     name: 'Paris',
     element: 'Fire',
