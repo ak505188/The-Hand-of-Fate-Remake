@@ -1,24 +1,54 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+  import Container from '$lib/components/container.svelte';
+</script>
 
-<div>
-  <h2>
-    Welcome to The Hand of Fate
-  </h2>
-  <p>
-    Welcome to The Hand of Fate, an <b>Exit Fate</b> fan site. If you don't already know, but have found yourself here anyway, <b>Exit Fate</b> is a role-playing game created by <a href="http://site.scfworks.com/?page_id=31">SCF</a> with the use of the <b>RPG Maker XP</b> computer software. For further information on the game itself, check the 'About Exit Fate' link provided in the menu above.
-    </p>
-    <p>
-      Before you venture further into this site, let me point out that this site uses the MS Gothic font face, so if you don't have it installed, the site will likely appear rather screwy. If you don't have this font installed, you can download it <a href="https://www.microsoft.com/typography/fonts/font.aspx?FMID=1269">here</a>.
-  </p>
-  <h2>Update (06/29/19)</h2>
-  <p>
-    Hey, been a while! ...A <i>long</i> while. Truth be told, I just haven't really had the time to do much with the site these days. I still check in on the forum semi-frequently, but other than that, I think the site's mostly going to remain in its current state. On the topic of the forum, though: I just noticed the link to the forum doesn't appear to be redirecting anymore (for those unaware, InvisionFree merged with Tapatalk, so lots of stuff changed), so I updated the forum link in the main site's menu. However, I'm a total novice at web design, so the menu is actually individually typed out for every single page on the site, which is quite a lot at this point. Suffice it to say I don't have the time at the moment to update every single page, but I've updated all of the main pages, at least. If the link on a given page you're viewing isn't working, just come back to this page or any of the others listed in the menu, and it should work from there. I'll try to get on to fix the other links when I can, but in the meantime, please bear with this psuedo-solution.
-  </p>
-
-  <h2>Disclaimer</h2>
-  <p>
-    &nbsp;1.) This website is entirely fan-made, and is in no way directly affiliated with the creator<br>&nbsp;&nbsp;&nbsp;&nbsp; of the game or the software used to create it. Any contact about the site should be made<br>&nbsp;&nbsp;&nbsp;&nbsp; with me -- the webmaster.<br><br>
-      &nbsp;2.) Being a fan-made site based on a game, many images used on the site are borrowed from<br>&nbsp;&nbsp;&nbsp;&nbsp; the game. All of said images belong to their rightful owners/creators; I claim no credit<br>&nbsp;&nbsp;&nbsp;&nbsp; for their creation. (This includes all original artwork based on the game, which belongs<br>&nbsp;&nbsp;&nbsp;&nbsp; to SCF.)
-  </p>
-</div>
+<Container>
+  <h2>Exit Fate: Gameplay Guides</h2>
+  <h3>Need help in the game? Want a reference for something? This is where you should be, then.</h3>
+  <h4>Characters</h4>
+  <ul>
+    <li><a href="/guides/recruit">Recruitment Guide</a></li>
+    <li><a href="/guides/stats">Stat Charts</a></li>
+    <li><a href="/guides/initial_equipment">Initial Equipment</a></li>
+    <li><a href="/guides/relations">Relations Guide</a></li>
+    <li><a href="/guides/weapons">Weapon Levels</a></li>
+    <li><a href="/guides/skills">Special Skills</a></li>
+    <li><a href="warunits">War Unit Guide</a></li>
+    <li><a href="meiko">Meiko's Interviews</a><br></li>
+  </ul>
+  <h4>Items</h4>
+  <ul>
+    <li><a href="/guides/items">Item List</a></li>
+    <li><a href="/guides/armor">Armor List</a></li>
+    <li><a href="/guides/accessories">Accessory List</a></li>
+    <li><a href="/guides/magic">Magic List</a></li>
+    <li><a href="/guides/magic_crystals">Magic Crystal List</a></li>
+    <li><a href="/guides/chests">Treasure Chest List</a><br></li>
+  </ul>
+  <h4>Shops</h4>
+  <ul>
+    <li><a href="/guides/general_stores">General Store List</a></li>
+    <li><a href="/guides/smiths_weapons">Blacksmith (Weapons) List</a></li>
+    <li><a href="/guides/smiths_armor">Blacksmith (Armor) List</a></li>
+    <li><a href="/guides/magic_shops">Magic Shop List</li>
+  </ul>
+  <h4>Miscellaneous</h4>
+  <ul>
+    <li><a href="/guides/gameplay_tips">Gameplay Tips</a></li>
+    <li><a href="/guides/menusets">Menu Set List</a></li>
+    <li><a href="/guides/battleplans">Battle Plan List</a></li>
+    <li><a href="/guides/enemy_loot">Enemy Loot Guide</a></li>
+    <li><a href="/guides/bosses">Boss List</a></li>
+    <li><a href="/guides/gaias_heart">Gaia's Heart Guide</a></li>
+    <li><a href="/guides/shiva_passage">Shiva Passage Guide</a></li>
+    <li><a href="/guides/blackjack">Johnny's Blackjack Table</a></li>
+    <li><a href="/guides/errors">Bugs/Glitches and Mishaps</a><br></li>
+  </ul>
+  <h4>Extras</h4>
+  <ul>
+    <li><a href="/guides/game_mechanics">Gameplay Mechanics</a><br></li>
+    <li><a href="/bgm">BGM List</a></li>
+    <li><a href="/guides/secrets">Secrets</a></li>
+    <li><a href="comic-wanderer">Comic: The Wanderer</a><br></li>
+  </ul>
+</Container>
