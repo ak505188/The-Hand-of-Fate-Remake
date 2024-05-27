@@ -1,6 +1,6 @@
 <script>
   import Container from '$lib/components/container.svelte';
-  import { stats } from '$lib/data/characters.js';
+  import stats from '$lib/data/characters/stats.js';
 
   let characters = stats;
   let sortBy = { id: 'name', ascending: true }
