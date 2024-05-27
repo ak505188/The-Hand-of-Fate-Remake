@@ -1,6 +1,6 @@
 <script>
   import Container from '$lib/components/container.svelte';
-  import { weapons } from '$lib/data/characters.js';
+  import weapons from '$lib/data/characters/weapons.js';
 </script>
 
 <Container>

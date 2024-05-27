@@ -144,4 +144,7 @@
 </Container>
 
 <style>
+  li {
+    list-style: none;
+  }
 </style>

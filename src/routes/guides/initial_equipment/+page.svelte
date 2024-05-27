@@ -1,6 +1,6 @@
 <script>
   import Container from '$lib/components/container.svelte';
-  import { inventories } from '$lib/data/characters.js';
+  import inventories from '$lib/data/characters/inventories.js';
 
   let character_inventories = inventories;
   let sortBy = { id: 'character', ascending: true }
@@ -24,7 +24,6 @@
     : 0;
 
     character_inventories = character_inventories.sort(sort);
-    console.log(character_inventories);
   }
 </script>
 
