@@ -13,8 +13,8 @@
     <li><a href="/guides/relations">Relations Guide</a></li>
     <li><a href="/guides/weapons">Weapon Levels</a></li>
     <li><a href="/guides/skills">Special Skills</a></li>
-    <li><a href="warunits">War Unit Guide</a></li>
-    <li><a href="meiko">Meiko's Interviews</a><br></li>
+    <li><a href="/guides/war_units">War Unit Guide</a></li>
+    <li><a href="/guides/interviews">Meiko's Interviews</a><br></li>
   </ul>
   <h4>Items</h4>
   <ul>
@@ -49,6 +49,6 @@
     <li><a href="/guides/game_mechanics">Gameplay Mechanics</a><br></li>
     <li><a href="/bgm">BGM List</a></li>
     <li><a href="/guides/secrets">Secrets</a></li>
-    <li><a href="comic-wanderer">Comic: The Wanderer</a><br></li>
+    <li><a href="/comic">Comic: The Wanderer</a><br></li>
   </ul>
 </Container>

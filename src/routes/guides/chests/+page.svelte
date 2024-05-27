@@ -15,9 +15,6 @@
 </Container>
 
 <style>
-  table {
-
-  }
   section {
     display: flex;
     flex-direction: row;
