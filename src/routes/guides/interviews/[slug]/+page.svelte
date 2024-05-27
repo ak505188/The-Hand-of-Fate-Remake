@@ -12,7 +12,7 @@
   <h2>Exit Fate: Meiko's Interviews</h2>
   <hr class="border">
   <div class="img-container">
-    <img src={img_path}>
+    <img src={img_path} alt={character}>
   </div>
   <h3>{character}</h3>
   {#each interview as interview_lines}

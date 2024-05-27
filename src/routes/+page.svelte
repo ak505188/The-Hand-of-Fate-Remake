@@ -49,6 +49,6 @@
     <li><a href="/guides/game_mechanics">Gameplay Mechanics</a><br></li>
     <li><a href="/bgm">BGM List</a></li>
     <li><a href="/guides/secrets">Secrets</a></li>
-    <li><a href="comic-wanderer">Comic: The Wanderer</a><br></li>
+    <li><a href="/comic">Comic: The Wanderer</a><br></li>
   </ul>
 </Container>
