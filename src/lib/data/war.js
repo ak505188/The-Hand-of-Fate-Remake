@@ -1,4 +1,4 @@
-export const leaders = [
+export const Leaders = [
   {
     name: 'Daniel Vinyard',
     men: 550,
@@ -147,7 +147,7 @@ export const leaders = [
   }
 ]
 
-export const units = [
+export const Units = [
   {
     name: 'Alex',
     men: 35,
@@ -543,3 +543,18 @@ export const units = [
     skill: 'Light Feet',
   }
 ]
+
+export const Skills = {
+  'Analyze': 'See expected damage before attacking',
+  'Berserker': '+2 ATK on first strike, -2 DEF on counter',
+  'Blockade': '+2 DEF vs. Cavalry',
+  'Counter': '+2 ATK on counter',
+  'Evasion': '25% chance to evade when attacked',
+  'Forcefield': '+2 DEF vs. Sorcery',
+  'Forester': '+1 to Forest mobility',
+  'Light Feet': '+2 DEF vs. Infantry',
+  'Mountaineer': '+1 to Mountain mobility',
+  'Regenerate': 'Recover MEN after each battle',
+  'Scatter': '+2 DEF vs. Scout',
+  'Shield': '+2 DEF on counter',
+}
