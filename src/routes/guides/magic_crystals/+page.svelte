@@ -13,11 +13,11 @@
   <h3>Level 1 Magic Crystals</h3>
   <table>
     <thead>
-      <trow>
+      <tr>
         <th>Item</th>
         <th>Element</th>
         <th>Spell</th>
-      </trow>
+      </tr>
     </thead>
     <tbody>
       {#each Crystals[0] as crystal}
@@ -200,4 +200,12 @@
 </Container>
 
 <style>
+  table {
+    margin: 0;
+    text-align: left;
+  }
+
+  table td:not(:last-child), table th:not(:last-child) {
+    padding-right: 1rem;
+  }
 </style>

@@ -4,7 +4,7 @@
 
 <Container>
   <h2>Exit Fate: Gameplay Guides</h2>
-  <h3>Need help in the game? Want a reference for something? This is where you should be, then.</h3>
+  <p>Need help in the game? Want a reference for something? This is where you should be!</p>
   <h4>Characters</h4>
   <ul>
     <li><a href="/guides/recruit">Recruitment Guide</a></li>
