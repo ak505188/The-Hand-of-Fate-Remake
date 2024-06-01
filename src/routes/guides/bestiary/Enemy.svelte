@@ -1,6 +1,6 @@
 <script>
-  import EnemyCell from './EnemyCell.svelte';
   import ElementComponent from '$lib/components/Element.svelte';
+  import Cell from './Cell.svelte';
 
   export let enemy;
   export let open = false;
@@ -22,28 +22,17 @@
     <span class="location">{location}</span>
   </summary>
   <div>
-    <div class="stats">
-      <EnemyCell name='LVL'>{LVL}</EnemyCell>
-      <EnemyCell name='HP'>{HP}</EnemyCell>
-      <EnemyCell name='STR'>{STR}</EnemyCell>
-      <EnemyCell name='MAG'>{MAG}</EnemyCell>
-      <EnemyCell name='PDF'>{PDF}</EnemyCell>
-      <EnemyCell name='MDF'>{MDF}</EnemyCell>
-      <EnemyCell name='ACC'>{ACC}</EnemyCell>
-      <EnemyCell name='DEX'>{DEX}</EnemyCell>
-    </div>
-    <div class="item drop">
-      <header>Drop</header>
-      <span>{drop}</span>
-    </div>
-    <div class="item steal">
-      <header>Steal</header>
-      <span>{steal}</span>
-    </div>
-    <div class="item arn">
-      <header>Arn</header>
-      <span>{Arn}</span>
-    </div>
+    <Cell label="LVL">{LVL}</Cell>
+    <Cell label="HP">{HP}</Cell>
+    <Cell label="STR">{STR}</Cell>
+    <Cell label="MAG">{MAG}</Cell>
+    <Cell label="PDF">{PDF}</Cell>
+    <Cell label="MDF">{MDF}</Cell>
+    <Cell label="ACC">{ACC}</Cell>
+    <Cell label="DEX">{DEX}</Cell>
+    <Cell label="Drop">{drop}</Cell>
+    <Cell label="Steal">{steal}</Cell>
+    <Cell label="Arn">{Arn}</Cell>
   </div>
 </details>
 
@@ -54,11 +43,10 @@
     --background-color-alt: #4e0101;
     background: var(--background-color);
     box-shadow: 0 0 0 1px var(--border-color);
-    border-radius: 1px;
   }
 
-  details[open]:not(:last-child) {
-    margin-bottom: 1rem;
+  details[open] {
+    margin: 1rem auto;
   }
 
   summary {
@@ -92,77 +80,49 @@
     margin-left: .25rem;
   }
 
-  details div {
+  details > div {
     display: grid;
+    gap: 1px;
     grid-template-columns: repeat(8, 1fr);
     grid-template-areas:
-      "stats stats stats stats stats stats stats stats"
+      "lvl hp str mag pdf mdf acc dex"
       "drop drop drop steal steal steal arn arn";
   }
 
-  .stats {
-    display: grid;
-    grid-area: stats;
-    grid-template-columns: repeat(8, 1fr);
-    box-shadow: 0 0 0 1px var(--border-color);
-    background: #4e0101;
-  }
-
-  .stats > :global(*:not(:first-child)) {
-    box-shadow: -1px 0 0 0 var(--border-color);
-  }
-
-  .stats > :global(*:nth-child(even)) {
-    background: var(--background-color-alt);
-  }
-
-  .steal {
-    grid-area: steal;
-  }
-
-  .drop {
-    grid-area: drop;
-  }
-
-  .arn {
-    grid-area: arn;
-  }
-
-  .item {
-    display: flex;
-    padding: .5rem;
-  }
-
-  .item header {
-    padding-right: .5rem;
-    text-decoration: underline;
-  }
-
-  .item:not(:first-child) {
-    box-shadow: -1px 0 0 0 var(--border-color);
+  @media (max-width: 800px) {
+    details > div {
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-areas:
+        "lvl hp str mag"
+        "pdf mdf acc dex"
+        "drop drop steal steal"
+        "arn arn arn arn";
+    }
   }
 
   @media (max-width: 640px) {
-    details div {
+    details > div {
       grid-template-columns: repeat(4, 1fr);
       grid-template-areas:
-        "stats stats stats stats"
-        "stats stats stats stats"
+        "lvl hp str mag"
+        "pdf mdf acc dex"
         "drop drop drop drop"
         "steal steal steal steal"
         "arn arn arn arn";
     }
+  }
 
-    .stats {
-      grid-template-columns: repeat(4, 1fr);
-    }
-
-    .stats > :global(*:nth-child(-n+4)) {
-      border-bottom: 1px solid var(--border-color);
-    }
-
-    .item:not(:first-child) {
-      box-shadow: 0 1px 0 0 var(--border-color);
+  @media (max-width: 420px) {
+    details > div {
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-areas:
+        "lvl hp"
+        "str mag"
+        "pdf mdf"
+        "acc dex"
+        "drop drop"
+        "steal steal"
+        "arn arn";
     }
   }
 </style>
