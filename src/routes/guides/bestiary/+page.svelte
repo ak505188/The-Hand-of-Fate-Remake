@@ -3,7 +3,6 @@
   import Container from '$lib/components/container.svelte';
   import { BestiaryByChapter } from '$lib/data/bestiary.js';
   import Enemy from './Enemy.svelte';
-
 </script>
 
 <Container>
@@ -14,7 +13,7 @@
   <ul>
     {#each BestiaryByChapter as Chapter}
       <li>
-        <a href="{$page.url}#{Chapter.name}">{Chapter.name}</a>
+        <a href="{$page.url.pathname}#{Chapter.name}">{Chapter.name}</a>
       </li>
     {/each}
   </ul>
