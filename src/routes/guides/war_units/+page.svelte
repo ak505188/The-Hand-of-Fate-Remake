@@ -47,7 +47,7 @@
     {/each}
   </section>
   <h3>Unit Members</h3>
-  <section>
+  <section class="unit-members">
     {#each Units as unit}
        <UnitTable unit={unit}/>
     {/each}
@@ -63,12 +63,17 @@
       {/each}
     </tbody>
   </table>
+  <p>Some skills are glitched, you can read more about it <a href="/guides/errors#War_Battle_Glitches">here</a>.
 </Container>
 
 <style>
   section {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+  }
+
+  section.unit-members {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   }
 
   section.unit-types {

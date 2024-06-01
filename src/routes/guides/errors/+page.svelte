@@ -75,7 +75,7 @@
     <a href="https://clips.twitch.tv/ArborealGrossFlamingoDxCat">https://clips.twitch.tv/ArborealGrossFlamingoDxCat</a>
   </p>
 
-  <h3>War Battle Glitches</h3>
+  <h3 id="War_Battle_Glitches">War Battle Glitches</h3>
   <h4>Infinite Movement Glitch</h4>
   <p>
     When you’re attempting to move a unit, and press the Confirm and Cancel keys/buttons simultaneously (this may take multiple attempts), that unit will move to the specified location without using up their turn, allowing them to take another action! This can be repeated as many times as needed, until that unit takes an action that ends its turn.

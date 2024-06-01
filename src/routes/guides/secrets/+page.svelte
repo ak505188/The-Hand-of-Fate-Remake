@@ -122,13 +122,15 @@
       <h4>Engulfed By a Massive Darkness</h4>
       <p>
         Enter the basement of Elysium Castle and head toward the back of the dungeon. You will find a treasure chest, which can only be opened once you have recruited all 75 characters. Once you have done so, open the chest to trigger a rather ominous message: "You shiver as you feel a sudden cold chill. Traces of memories flash through your mind, some of which you don't recognize. The room you grew up in appears clearly before you, before being engulfed by a massive darkness." You will then receive Battle Plan #23: Fated Battle, as well as unlock the first of six optional bosses. These foes will truly test the strength of your party (as will the random encounters around them), so be sure to enter battle well prepared. Each boss will show you a special scene as well as provide a hint to the next boss' whereabouts. Below is a list of the enemies and their locations.
-  1.) Shadow Daniel: Levier orphanage, east 2nd floor.
-  2.) Shadow Erin: Erin's office in Matrech State Capital.
-  3.) Shadow Eander: Meeting hall in the castle of St. Reinard.
-  4.) Shadow Tarlia: Muspelheim inn, basement room.
-  5.) Shadow Ljusalf: Alfheim inn, 2nd floor.
-  6.) Shadow Yan Angwa: West Nifl Woods.
       </p>
+      <ol>
+        <li>Shadow Daniel: Levier orphanage, east 2nd floor.</li>
+        <li>Shadow Erin: Erin's office in Matrech State Capital.</li>
+        <li>Shadow Eander: Meeting hall in the castle of St. Reinard.</li>
+        <li>Shadow Tarlia: Muspelheim inn, basement room.</li>
+        <li>Shadow Ljusalf: Alfheim inn, 2nd floor.</li>
+        <li>Shadow Yan Angwa: West Nifl Woods.</li>
+      </ol>
     </li>
 
     <li>
@@ -144,7 +146,11 @@
 </Container>
 
 <style>
-  li {
+  ul > li {
     list-style: none;
+  }
+
+  ol {
+    padding-left: 0;
   }
 </style>
