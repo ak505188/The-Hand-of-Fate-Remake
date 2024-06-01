@@ -1,4 +1,4 @@
-const bestiary = [
+const Bestiary = [
   {
     Name: 'Bandit (Axe)',
     Element: 'Dark',
@@ -6161,4 +6161,4 @@ const bestiary = [
   }
 ]
 
-export default bestiary;
+export default Bestiary;
