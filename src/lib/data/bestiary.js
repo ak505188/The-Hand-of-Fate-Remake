@@ -6570,3 +6570,38 @@ export const Bestiary = [
     Available: [ 'Post Game' ]
   }
 ]
+
+export const BestiaryByChapter = [
+  {
+    name: 'Chapter 1 & 2',
+    enemies: Bestiary.filter(enemy => enemy.Available.includes(1) || enemy.Available.includes(2))
+  },
+  {
+    name: 'Chapter 3',
+    enemies: Bestiary.filter(enemy => enemy.Available.includes(3))
+  },
+  {
+    name: 'Chapter 4',
+    enemies: Bestiary.filter(enemy => enemy.Available.includes(4))
+  },
+  {
+    name: 'Chapter 5',
+    enemies: Bestiary.filter(enemy => enemy.Available.includes(5))
+  },
+  {
+    name: 'Chapter 6',
+    enemies: Bestiary.filter(enemy => enemy.Available.includes(6))
+  },
+  {
+    name: 'Chapter 7',
+    enemies: Bestiary.filter(enemy => enemy.Available.includes(7))
+  },
+  {
+    name: 'Chapter 8',
+    enemies: Bestiary.filter(enemy => enemy.Available.includes(8))
+  },
+  {
+    name: 'Post Game',
+    enemies: Bestiary.filter(enemy => enemy.Available.includes('Post Game'))
+  }
+];

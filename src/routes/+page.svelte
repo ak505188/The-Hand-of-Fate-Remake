@@ -34,6 +34,7 @@
   </ul>
   <h4>Miscellaneous</h4>
   <ul>
+    <li><a href="/guides/bestiary">Bestiary</a></li>
     <li><a href="/guides/gameplay_tips">Gameplay Tips</a></li>
     <li><a href="/guides/menusets">Menu Set List</a></li>
     <li><a href="/guides/battleplans">Battle Plan List</a></li>
