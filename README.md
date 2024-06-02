@@ -29,10 +29,10 @@ This is a remake of the now down The Hand of Fate website. It's a website dedica
       - [x] War Unit Guide
         - (the guide mentioned “-1 ATK” for Sorcery unit, but it’s actually “+1 ATK”, the game incorrectly shows -1 during the unit formation setup page)
         - (might want to also mention about the bug on damage effect abilities, similarly to what’s shown on the glitches guide?)
-    - [ ] Enemy Guides
+    - [x] Enemy Guides
       - [x] Enemy Stats
         - [Doc Link](https://docs.google.com/spreadsheets/d/1jqfsGbik-WP9kBdr57AOiN6HAvRigJ1W94Apezeppvg/edit?usp=sharing)
-      - [ ] Encounters List
+      - [x] Encounters List
         - [Doc Link](https://docs.google.com/document/d/1iQFxU6j2krs8LQ_as9YlnTbU-n8wddUvEWZfIYGMp6g/edit?usp=sharing)
     - [ ] Item Guides
       - [x] Items List (don't need to show locations of special items, cause it's already listed on the recruitment guides?)
@@ -54,15 +54,15 @@ This is a remake of the now down The Hand of Fate website. It's a website dedica
       - [x] Blacksmith (Armors) List
       - [x] Magic Shop List
         - [x] St. Reinard magic shop is missing from this list. It sells “Heal” + Tal Gren items + Ashton Port items
-    - [ ] Miscellaneous Guides
+    - [x] Miscellaneous Guides
       - [x] Gameplay Tips
         - [Doc Link](https://docs.google.com/document/d/1miT-mg7vmI-H2t-K8yAK0rIaY3z1oOoyL1P0f8-TVpc/edit?usp=sharing)
       - [x] Menu Set List
       - [x] Battle Plan List
       - [x] Enemy Loot Guide
-        - [ ] Remove this, obsoleted by Enemies List
+        - [x] Remove this, obsoleted by Enemies List
       - [x] Boss List
-        - [ ] Remove this, obsoleted by Enemies List
+        - [x] Remove this, obsoleted by Enemies List
       - [x] Gaia's Heart Guide
       - [x] Shiva Passage Guide
       - [x] Johnny's Blackjack Table
