@@ -29,15 +29,15 @@ This is a remake of the now down The Hand of Fate website. It's a website dedica
       - [x] War Unit Guide
         - (the guide mentioned “-1 ATK” for Sorcery unit, but it’s actually “+1 ATK”, the game incorrectly shows -1 during the unit formation setup page)
         - (might want to also mention about the bug on damage effect abilities, similarly to what’s shown on the glitches guide?)
-    - [ ] Enemy Guides
+    - [x] Enemy Guides
       - [x] Enemy Stats
         - [Doc Link](https://docs.google.com/spreadsheets/d/1jqfsGbik-WP9kBdr57AOiN6HAvRigJ1W94Apezeppvg/edit?usp=sharing)
-      - [ ] Encounters List
+      - [x] Encounters List
         - [Doc Link](https://docs.google.com/document/d/1iQFxU6j2krs8LQ_as9YlnTbU-n8wddUvEWZfIYGMp6g/edit?usp=sharing)
-    - [ ] Item Guides
+    - [x] Item Guides
       - [x] Items List (don't need to show locations of special items, cause it's already listed on the recruitment guides?)
       - [x] Armor List
-        - [ ] Mobile styling
+        - [x] Mobile styling
       - [x] Accessory List
       - [x] Magic List
       - [x] Magic Crystal List
@@ -46,23 +46,23 @@ This is a remake of the now down The Hand of Fate website. It's a website dedica
         - [x] Don’t need to show the “500 Arn” on Treasure Island, since that’s just part of story cutscene
         - [x] For Avalon, need an extra note for the last two chests, that they’re only accessible by obtaining the Ornate Key item from a bookshelf on a different room
         - [x] There’s a typo on “Nocturne Keep” name, it should be “Nocturn Keep”
-        - [ ] Implement image modal
-        - [ ] Find better way to display tips
+        - [x] Implement image modal
+        - [x] Find better way to display tips
     - [x] Shop Guides
       - [x] General Store List
       - [x] Blacksmith (Weapons) List
       - [x] Blacksmith (Armors) List
       - [x] Magic Shop List
         - [x] St. Reinard magic shop is missing from this list. It sells “Heal” + Tal Gren items + Ashton Port items
-    - [ ] Miscellaneous Guides
+    - [x] Miscellaneous Guides
       - [x] Gameplay Tips
         - [Doc Link](https://docs.google.com/document/d/1miT-mg7vmI-H2t-K8yAK0rIaY3z1oOoyL1P0f8-TVpc/edit?usp=sharing)
       - [x] Menu Set List
       - [x] Battle Plan List
       - [x] Enemy Loot Guide
-        - [ ] Remove this, obsoleted by Enemies List
+        - [x] Remove this, obsoleted by Enemies List
       - [x] Boss List
-        - [ ] Remove this, obsoleted by Enemies List
+        - [x] Remove this, obsoleted by Enemies List
       - [x] Gaia's Heart Guide
       - [x] Shiva Passage Guide
       - [x] Johnny's Blackjack Table
@@ -77,7 +77,7 @@ This is a remake of the now down The Hand of Fate website. It's a website dedica
       - [x] BGM List
         - [x] Bayside music is mistakenly listed as “Final Fantasy XI” when it’s should be “IX”
         - [x] Cento music is mistakenly listed as “Due Fiumi”, when it’s actually “Two Rivers”
-        - [ ] Mobile responsive
+        - [x] Mobile responsive
       - [x] Bugs/Glitches and Mishaps
         - [Doc Link](https://docs.google.com/document/d/11shq2RivooaDxLwwdNfgaxng2JzfaLLT91S3h5MnuT0/edit?usp=sharing)
       - [x] Game Mechanics Formulas

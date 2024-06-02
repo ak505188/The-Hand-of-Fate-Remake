@@ -37,4 +37,9 @@
     height: 2px;
     background: white;
   }
+
+  :global(h2) {
+    font-size: 1.25rem;
+    margin: .5rem 0;
+  }
 </style>

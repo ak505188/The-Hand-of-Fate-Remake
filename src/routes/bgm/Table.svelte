@@ -28,13 +28,13 @@
 
   td, th {
     text-align: left;
-    padding: .25rem .5rem;
-    width: 7rem;
+    padding: .25rem 0;
+    vertical-align: top;
   }
 
-
-  td:first-child, th:first-child {
-    padding-left: 0;
-    padding-right: 1rem;
+  @media (max-width: 640px) {
+    table {
+      font-size: .875rem;
+    }
   }
 </style>

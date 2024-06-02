@@ -4,7 +4,8 @@
 
 <Container>
   <h2>Exit Fate: Gameplay Guides</h2>
-  <h3>Need help in the game? Want a reference for something? This is where you should be, then.</h3>
+  <hr class="border"/>
+  <p>Need help in the game? Want a reference for something? This is where you should be!</p>
   <h4>Characters</h4>
   <ul>
     <li><a href="/guides/recruit">Recruitment Guide</a></li>
@@ -32,13 +33,16 @@
     <li><a href="/guides/smiths_armor">Blacksmith (Armor) List</a></li>
     <li><a href="/guides/magic_shops">Magic Shop List</li>
   </ul>
+  <h4>Enemy Guides</h4>
+  <ul>
+    <li><a href="/guides/bestiary">Bestiary</a></li>
+    <li><a href="/guides/encounters">Encounters</a></li>
+  </ul>
   <h4>Miscellaneous</h4>
   <ul>
     <li><a href="/guides/gameplay_tips">Gameplay Tips</a></li>
     <li><a href="/guides/menusets">Menu Set List</a></li>
     <li><a href="/guides/battleplans">Battle Plan List</a></li>
-    <li><a href="/guides/enemy_loot">Enemy Loot Guide</a></li>
-    <li><a href="/guides/bosses">Boss List</a></li>
     <li><a href="/guides/gaias_heart">Gaia's Heart Guide</a></li>
     <li><a href="/guides/shiva_passage">Shiva Passage Guide</a></li>
     <li><a href="/guides/blackjack">Johnny's Blackjack Table</a></li>

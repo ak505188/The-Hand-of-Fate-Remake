@@ -7,27 +7,37 @@
 <Container>
   <h2>Exit Fate: Armor List</h2>
   <hr class="border">
-  <aside>* = The in-game item information is incorrect. The values listed here are the corrected values.</aside>
-  <h3>Robes</h3>
-  <Table armor={Robes}/>
-  <h3>Light_Armor</h3>
-  <Table armor={Light_Armor}/>
-  <h3>Heavy_Armor</h3>
-  <Table armor={Heavy_Armor}/>
-  <h3>Special_Armor</h3>
-  <Table armor={Special_Armor}/>
-  <hr>
-  <h3>Light_Headgear</h3>
-  <Table armor={Light_Headgear}/>
-  <h3>Heavy_Headgear</h3>
-  <Table armor={Heavy_Headgear}/>
-  <h3>Special_Headgear</h3>
-  <Table armor={Special_Headgear}/>
-  <hr>
-  <h3>Light_Footwear</h3>
-  <Table armor={Light_Footwear}/>
-  <h3>Heavy_Footwear</h3>
-  <Table armor={Heavy_Footwear}/>
-  <h3>Special_Footwear</h3>
-  <Table armor={Special_Footwear}/>
+  <p>
+    * = The in-game item information is incorrect. The values listed here are the corrected values.
+  </p>
+  <section>
+    <h3>Robes</h3>
+    <Table armor={Robes}/>
+    <h3>Light_Armor</h3>
+    <Table armor={Light_Armor}/>
+    <h3>Heavy_Armor</h3>
+    <Table armor={Heavy_Armor}/>
+    <h3>Special_Armor</h3>
+    <Table armor={Special_Armor}/>
+    <hr>
+    <h3>Light_Headgear</h3>
+    <Table armor={Light_Headgear}/>
+    <h3>Heavy_Headgear</h3>
+    <Table armor={Heavy_Headgear}/>
+    <h3>Special_Headgear</h3>
+    <Table armor={Special_Headgear}/>
+    <hr>
+    <h3>Light_Footwear</h3>
+    <Table armor={Light_Footwear}/>
+    <h3>Heavy_Footwear</h3>
+    <Table armor={Heavy_Footwear}/>
+    <h3>Special_Footwear</h3>
+    <Table armor={Special_Footwear}/>
+  </section>
 </Container>
+
+<style>
+  section {
+    margin: 1rem 0;
+  }
+</style>
