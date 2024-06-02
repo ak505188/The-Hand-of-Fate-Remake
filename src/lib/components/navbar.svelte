@@ -20,7 +20,7 @@
     flex-direction: row;
     justify-content: space-between;
     margin: 0;
-    padding: 0;
+    padding: .25rem 0;
     flex-wrap: wrap;
   }
 
@@ -29,7 +29,14 @@
     margin: 0;
   }
 
-  li:not(:last-child) {
-    padding-right: 1rem;
+  @media (max-width: 640px) {
+    ul {
+      justify-content: space-between;
+    }
+
+    li {
+      padding-right: .25rem;
+    }
   }
+
 </style>
