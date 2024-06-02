@@ -34,10 +34,10 @@ This is a remake of the now down The Hand of Fate website. It's a website dedica
         - [Doc Link](https://docs.google.com/spreadsheets/d/1jqfsGbik-WP9kBdr57AOiN6HAvRigJ1W94Apezeppvg/edit?usp=sharing)
       - [x] Encounters List
         - [Doc Link](https://docs.google.com/document/d/1iQFxU6j2krs8LQ_as9YlnTbU-n8wddUvEWZfIYGMp6g/edit?usp=sharing)
-    - [ ] Item Guides
+    - [x] Item Guides
       - [x] Items List (don't need to show locations of special items, cause it's already listed on the recruitment guides?)
       - [x] Armor List
-        - [ ] Mobile styling
+        - [x] Mobile styling
       - [x] Accessory List
       - [x] Magic List
       - [x] Magic Crystal List
@@ -46,8 +46,8 @@ This is a remake of the now down The Hand of Fate website. It's a website dedica
         - [x] Don’t need to show the “500 Arn” on Treasure Island, since that’s just part of story cutscene
         - [x] For Avalon, need an extra note for the last two chests, that they’re only accessible by obtaining the Ornate Key item from a bookshelf on a different room
         - [x] There’s a typo on “Nocturne Keep” name, it should be “Nocturn Keep”
-        - [ ] Implement image modal
-        - [ ] Find better way to display tips
+        - [x] Implement image modal
+        - [x] Find better way to display tips
     - [x] Shop Guides
       - [x] General Store List
       - [x] Blacksmith (Weapons) List
