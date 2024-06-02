@@ -4,7 +4,7 @@
 
 <Container>
   <h2>Exit Fate: Gameplay Guides</h2>
-  <h3>Need help in the game? Want a reference for something? This is where you should be, then.</h3>
+  <p>Need help in the game? Want a reference for something? This is where you should be!</p>
   <h4>Characters</h4>
   <ul>
     <li><a href="/guides/recruit">Recruitment Guide</a></li>
@@ -34,6 +34,8 @@
   </ul>
   <h4>Miscellaneous</h4>
   <ul>
+    <li><a href="/guides/bestiary">Bestiary</a></li>
+    <li><a href="/guides/encounters">Encounters</a></li>
     <li><a href="/guides/gameplay_tips">Gameplay Tips</a></li>
     <li><a href="/guides/menusets">Menu Set List</a></li>
     <li><a href="/guides/battleplans">Battle Plan List</a></li>
