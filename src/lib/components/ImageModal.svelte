@@ -1,4 +1,5 @@
 <script>
+  // https://svelte.dev/examples/modal
   import { setContext } from 'svelte';
 
   setContext('IMAGE_DIALOG', {
@@ -8,9 +9,9 @@
     }
   })
 
-  let src;
+  export let src;
 	let dialog; // HTMLDialogElement
-  let showModal = false;
+  export let showModal = false;
 
 	$: if (dialog && showModal) dialog.showModal();
 </script>
@@ -21,8 +22,27 @@
   on:close={() => showModal = false}
   on:click|self={() => dialog.close()}
 >
-  <h2>Modal Open</h2>
   {#if src}
-    <img src={src}/ alt="">
+    <img src={src} alt="">
   {/if}
 </dialog>
+
+<style>
+  dialog {
+    margin: auto;
+    padding: 0;
+    border: none;
+    outline: none;
+  }
+
+  img {
+    display: block;
+    margin: auto;
+    width: 100%;
+    max-width: 100vw;
+  }
+
+	dialog::backdrop {
+		background: rgba(0, 0, 0, 0.5);
+	}
+</style>

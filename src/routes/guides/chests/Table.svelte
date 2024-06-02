@@ -3,6 +3,7 @@
   export let title = 'Location';
   export let chests = [];
   export let tip = null;
+  export let open;
 
   const strToPath = (str, space_replacement = '_') => {
     const new_str = str
@@ -13,6 +14,8 @@
     .replace('#', '')
     return new_str;
   }
+
+  const imgPathGenerator = (chest, index) => `/images/guides/chests/${strToPath(title)}/${chest.no ? chest.no.toLowerCase().replace('.', '') : (index + 1).toString().padStart(2, '0')}-${strToPath(chest.name, '')}.jpg`;
 </script>
 
 <div>
@@ -32,8 +35,7 @@
     <tbody>
       {#each chests as chest,index}
         <tr>
-          <td>
-            <a href="/images/guides/chests/{strToPath(title)}/{chest.no ? chest.no.toLowerCase().replace('.', '') : (index + 1).toString().padStart(2, '0')}-{strToPath(chest.name, '')}.jpg">
+          <td class="no" on:click={open(imgPathGenerator(chest, index))}>
             {chest.no ? chest.no : (index + 1).toString().padStart(2, '0')}</td>
           <td>{chest.name}</td>
         </tr>
@@ -43,13 +45,15 @@
 </div>
 
 <style>
-  div {
-    width: min(100%, 360px);
-  }
-
   td, th {
     text-align: left;
     padding: .25rem .5rem;
+  }
+
+  td.no {
+    text-decoration: underline;
+    cursor: pointer;
+    color: var(--color-text-alt);
   }
 
   td:first-child, th:first-child {
