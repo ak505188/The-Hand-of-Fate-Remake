@@ -444,7 +444,7 @@ export const Bestiary = [
       DEX: 24
     },
     Arn: 250,
-    Drop: { Rate: 0.1, Item: 'Lightning' },
+    Drop: { Rate: 1, Item: 'Lightning' },
     Steal: null,
     Type: 'Boss',
     Available: [ 1, 2 ]
@@ -804,7 +804,7 @@ export const Bestiary = [
       DEX: 27
     },
     Arn: 0,
-    Drop: { Rate: 0.1, Item: 'Hard Boots' },
+    Drop: { Rate: 1, Item: 'Hard Boots' },
     Steal: { Rate: 0.5, Item: 'Bronze Badge' },
     Type: 'Boss',
     Available: [ 3 ]
@@ -1164,7 +1164,7 @@ export const Bestiary = [
       DEX: 34
     },
     Arn: 1000,
-    Drop: { Rate: 0.1, Item: 'Green Bandana' },
+    Drop: { Rate: 1, Item: 'Green Bandana' },
     Steal: { Rate: 0.5, Item: 'Waterfall' },
     Type: 'Boss',
     Available: [ 4 ]
@@ -1224,7 +1224,7 @@ export const Bestiary = [
       DEX: 36
     },
     Arn: 700,
-    Drop: { Rate: 0.1, Item: 'Shadowcast' },
+    Drop: { Rate: 1, Item: 'Shadowcast' },
     Steal: { Rate: 0.5, Item: 'Black Kirgard' },
     Type: 'Boss',
     Available: [ 4 ]
@@ -1254,7 +1254,7 @@ export const Bestiary = [
       DEX: 41
     },
     Arn: 500,
-    Drop: { Rate: 0.1, Item: 'Lightray' },
+    Drop: { Rate: 1, Item: 'Lightray' },
     Steal: { Rate: 0.5, Item: 'Mend-All' },
     Type: 'Boss',
     Available: [ 4 ]
@@ -1344,7 +1344,7 @@ export const Bestiary = [
       DEX: 57
     },
     Arn: 2200,
-    Drop: { Rate: 0.1, Item: 'Thunderbolt' },
+    Drop: { Rate: 1, Item: 'Thunderbolt' },
     Steal: { Rate: 0.5, Item: 'Gold Dust' },
     Type: 'Boss',
     Available: [ 4 ]
@@ -1434,7 +1434,7 @@ export const Bestiary = [
       DEX: 43
     },
     Arn: 1500,
-    Drop: { Rate: 0.1, Item: 'Leather Belt' },
+    Drop: { Rate: 1, Item: 'Leather Belt' },
     Steal: { Rate: 0.25, Item: 'Silver Helmet' },
     Type: 'Boss',
     Available: [ 4 ]
@@ -1554,7 +1554,7 @@ export const Bestiary = [
       DEX: 33
     },
     Arn: 0,
-    Drop: { Rate: 0.1, Item: 'Frostwave' },
+    Drop: { Rate: 1, Item: 'Frostwave' },
     Steal: { Rate: 0.5, Item: 'Granite Mail' },
     Type: 'Boss',
     Available: [ 5 ]
@@ -1704,7 +1704,7 @@ export const Bestiary = [
       DEX: 47
     },
     Arn: 2400,
-    Drop: { Rate: 0.1, Item: 'Frost Shard' },
+    Drop: { Rate: 1, Item: 'Frost Shard' },
     Steal: { Rate: 0.5, Item: 'Brigandine' },
     Type: 'Boss',
     Available: [ 5 ]
@@ -1914,7 +1914,7 @@ export const Bestiary = [
       DEX: 63
     },
     Arn: 3500,
-    Drop: { Rate: 0.1, Item: 'Red Cape' },
+    Drop: { Rate: 1, Item: 'Red Cape' },
     Steal: { Rate: 0.5, Item: 'Brass Ring' },
     Type: 'Boss',
     Available: [ 5 ]
@@ -2034,7 +2034,7 @@ export const Bestiary = [
       DEX: 62
     },
     Arn: 5500,
-    Drop: { Rate: 0.1, Item: 'Circlet of Insanity' },
+    Drop: { Rate: 1, Item: 'Circlet of Insanity' },
     Steal: { Rate: 0.5, Item: 'Diamond Dust' },
     Type: 'Boss',
     Available: [ 5 ]
@@ -2184,7 +2184,7 @@ export const Bestiary = [
       DEX: 55
     },
     Arn: 4500,
-    Drop: { Rate: 0.1, Item: 'Purple Herb' },
+    Drop: { Rate: 1, Item: 'Purple Herb' },
     Steal: { Rate: 0.5, Item: 'Diamond Dust' },
     Type: 'Boss',
     Available: [ 5 ]
@@ -2514,7 +2514,7 @@ export const Bestiary = [
       DEX: 52
     },
     Arn: 6666,
-    Drop: { Rate: 0.1, Item: 'Plague Mask' },
+    Drop: { Rate: 1, Item: 'Plague Mask' },
     Steal: { Rate: 0.5, Item: 'Titanium Orb' },
     Type: 'Boss',
     Available: [ 6 ]
@@ -2664,7 +2664,7 @@ export const Bestiary = [
       DEX: 77
     },
     Arn: 12500,
-    Drop: { Rate: 0.1, Item: 'Holy Grail' },
+    Drop: { Rate: 1, Item: 'Holy Grail' },
     Steal: { Rate: 0.5, Item: 'Blue Bandana' },
     Type: 'Boss',
     Available: [ 6 ]
@@ -2694,7 +2694,7 @@ export const Bestiary = [
       DEX: 65
     },
     Arn: 5000,
-    Drop: { Rate: 0.1, Item: 'Charged Jet' },
+    Drop: { Rate: 1, Item: 'Charged Jet' },
     Steal: { Rate: 0.5, Item: 'Darkstrike' },
     Type: 'Boss',
     Available: [ 6 ]
@@ -2724,7 +2724,7 @@ export const Bestiary = [
       DEX: 74
     },
     Arn: 4000,
-    Drop: { Rate: 0.1, Item: 'Charged Pearl' },
+    Drop: { Rate: 1, Item: 'Charged Pearl' },
     Steal: { Rate: 0.5, Item: 'Lightstrike' },
     Type: 'Boss',
     Available: [ 6 ]
@@ -2754,7 +2754,7 @@ export const Bestiary = [
       DEX: 70
     },
     Arn: 10000,
-    Drop: { Rate: 0.1, Item: 'Blue Glasses' },
+    Drop: { Rate: 1, Item: 'Blue Glasses' },
     Steal: { Rate: 0.5, Item: "Adventurer's Jacket" },
     Type: 'Boss',
     Available: [ 6 ]
@@ -2934,7 +2934,7 @@ export const Bestiary = [
       DEX: 82
     },
     Arn: 12000,
-    Drop: { Rate: 0.1, Item: 'Diamond Dust' },
+    Drop: { Rate: 1, Item: 'Diamond Dust' },
     Steal: { Rate: 0.5, Item: 'Silver Tiara' },
     Type: 'Boss',
     Available: [ 6 ]
@@ -3084,7 +3084,7 @@ export const Bestiary = [
       DEX: 74
     },
     Arn: 16000,
-    Drop: { Rate: 0.1, Item: 'Silver Ring' },
+    Drop: { Rate: 1, Item: 'Silver Ring' },
     Steal: { Rate: 0.5, Item: 'Fine Silk Robe' },
     Type: 'Boss',
     Available: [ 7 ]
@@ -3294,7 +3294,7 @@ export const Bestiary = [
       DEX: 94
     },
     Arn: 19000,
-    Drop: { Rate: 0.1, Item: 'Purple Herb' },
+    Drop: { Rate: 1, Item: 'Purple Herb' },
     Steal: { Rate: 0.5, Item: 'Brown Herb' },
     Type: 'Boss',
     Available: [ 7 ]
@@ -3534,7 +3534,7 @@ export const Bestiary = [
       DEX: 128
     },
     Arn: 25000,
-    Drop: { Rate: 0.1, Item: 'Diamond Dust' },
+    Drop: { Rate: 1, Item: 'Diamond Dust' },
     Steal: { Rate: 0.5, Item: 'Blackened Helm' },
     Type: 'Boss',
     Available: [ 7 ]
@@ -3954,7 +3954,7 @@ export const Bestiary = [
       DEX: 133
     },
     Arn: 66666,
-    Drop: { Rate: 0.1, Item: 'Menu Set #3' },
+    Drop: { Rate: 1, Item: 'Menu Set #3' },
     Steal: { Rate: 0.5, Item: 'Black-Green Cloak' },
     Type: 'Boss',
     Available: [ 7 ]
@@ -4104,7 +4104,7 @@ export const Bestiary = [
       DEX: 138
     },
     Arn: 55000,
-    Drop: { Rate: 0.1, Item: 'Lightstrike' },
+    Drop: { Rate: 1, Item: 'Lightstrike' },
     Steal: { Rate: 0.5, Item: 'White Fez' },
     Type: 'Boss',
     Available: [ 7 ]
@@ -4314,7 +4314,7 @@ export const Bestiary = [
       DEX: 120
     },
     Arn: 75000,
-    Drop: { Rate: 0.1, Item: 'Black Dragonplate' },
+    Drop: { Rate: 1, Item: 'Black Dragonplate' },
     Steal: { Rate: 0.5, Item: 'Lock' },
     Type: 'Boss',
     Available: [ 7 ]
@@ -4344,7 +4344,7 @@ export const Bestiary = [
       DEX: 172
     },
     Arn: 60000,
-    Drop: { Rate: 0.1, Item: 'Battle Plan #10' },
+    Drop: { Rate: 1, Item: 'Battle Plan #10' },
     Steal: { Rate: 0.5, Item: 'Blink' },
     Type: 'Boss',
     Available: [ 7 ]
@@ -4674,7 +4674,7 @@ export const Bestiary = [
       DEX: 215
     },
     Arn: 110000,
-    Drop: { Rate: 0.1, Item: 'Darkshield' },
+    Drop: { Rate: 1, Item: 'Darkshield' },
     Steal: { Rate: 0.5, Item: 'Dark Matter' },
     Type: 'Boss',
     Available: [ 8 ]
@@ -4884,7 +4884,7 @@ export const Bestiary = [
       DEX: 166
     },
     Arn: 22000,
-    Drop: { Rate: 0.1, Item: 'Crystal Orb' },
+    Drop: { Rate: 1, Item: 'Crystal Orb' },
     Steal: { Rate: 0.5, Item: 'Djinni Shoes' },
     Type: 'Boss',
     Available: [ 8 ]
@@ -4914,7 +4914,7 @@ export const Bestiary = [
       DEX: 166
     },
     Arn: 22500,
-    Drop: { Rate: 0.1, Item: 'Diamond Dust' },
+    Drop: { Rate: 1, Item: 'Diamond Dust' },
     Steal: { Rate: 0.5, Item: 'Purple Cape' },
     Type: 'Boss',
     Available: [ 8 ]
@@ -5004,7 +5004,7 @@ export const Bestiary = [
       DEX: 138
     },
     Arn: 25000,
-    Drop: { Rate: 0.1, Item: 'Inferno' },
+    Drop: { Rate: 1, Item: 'Inferno' },
     Steal: { Rate: 0.5, Item: 'Haste' },
     Type: 'Boss',
     Available: [ 8 ]
@@ -5034,7 +5034,7 @@ export const Bestiary = [
       DEX: 163
     },
     Arn: 30000,
-    Drop: { Rate: 0.1, Item: 'Purple Herb' },
+    Drop: { Rate: 1, Item: 'Purple Herb' },
     Steal: { Rate: 0.5, Item: 'Power Gear' },
     Type: 'Boss',
     Available: [ 8 ]
@@ -5064,7 +5064,7 @@ export const Bestiary = [
       DEX: 222
     },
     Arn: 35000,
-    Drop: { Rate: 0.1, Item: 'Menu Set #9' },
+    Drop: { Rate: 1, Item: 'Menu Set #9' },
     Steal: { Rate: 0.5, Item: 'Solar Flare' },
     Type: 'Boss',
     Available: [ 8 ]
@@ -5334,7 +5334,7 @@ export const Bestiary = [
       DEX: 278
     },
     Arn: 200000,
-    Drop: { Rate: 0.1, Item: 'Battle Plan #18' },
+    Drop: { Rate: 1, Item: 'Battle Plan #18' },
     Steal: null,
     Type: 'Boss',
     Available: [ 8 ]
@@ -5424,7 +5424,7 @@ export const Bestiary = [
       DEX: 161
     },
     Arn: 100000,
-    Drop: { Rate: 0.1, Item: 'Dark Matter' },
+    Drop: { Rate: 1, Item: 'Dark Matter' },
     Steal: { Rate: 0.5, Item: 'Gold Badge' },
     Type: 'Boss',
     Available: [ 8 ]
@@ -5454,7 +5454,7 @@ export const Bestiary = [
       DEX: 180
     },
     Arn: 80000,
-    Drop: { Rate: 0.1, Item: 'Solar Flare' },
+    Drop: { Rate: 1, Item: 'Solar Flare' },
     Steal: { Rate: 0.5, Item: 'Gold Ring' },
     Type: 'Boss',
     Available: [ 8 ]
@@ -5874,7 +5874,7 @@ export const Bestiary = [
       DEX: 224
     },
     Arn: 200000,
-    Drop: { Rate: 0.1, Item: 'Battle Plan #4' },
+    Drop: { Rate: 1, Item: 'Battle Plan #4' },
     Steal: null,
     Type: 'Boss',
     Available: [ 8 ]
@@ -5994,7 +5994,7 @@ export const Bestiary = [
       DEX: 291
     },
     Arn: 250000,
-    Drop: { Rate: 0.1, Item: 'Crystal Battlehelm' },
+    Drop: { Rate: 1, Item: 'Crystal Battlehelm' },
     Steal: { Rate: 0.5, Item: 'Valkyrie Dress' },
     Type: 'Boss',
     Available: [ 8 ]
@@ -6114,7 +6114,7 @@ export const Bestiary = [
       DEX: 327
     },
     Arn: 0,
-    Drop: { Rate: 0.1, Item: 'Purple Herb' },
+    Drop: { Rate: 1, Item: 'Purple Herb' },
     Steal: null,
     Type: 'Boss',
     Available: [ 8 ]
@@ -6324,7 +6324,7 @@ export const Bestiary = [
       DEX: 311
     },
     Arn: 250000,
-    Drop: { Rate: 0.1, Item: 'Battle Plan #22' },
+    Drop: { Rate: 1, Item: 'Battle Plan #22' },
     Steal: { Rate: 0.5, Item: 'Asgard Plate' },
     Type: 'Boss',
     Available: [ 'Post Game' ]
@@ -6414,7 +6414,7 @@ export const Bestiary = [
       DEX: 354
     },
     Arn: 999999,
-    Drop: { Rate: 0.1, Item: "Arch-Angel's Halo" },
+    Drop: { Rate: 1, Item: "Arch-Angel's Halo" },
     Steal: null,
     Type: 'Boss',
     Available: [ 'Post Game' ]
@@ -6444,7 +6444,7 @@ export const Bestiary = [
       DEX: 386
     },
     Arn: 999999,
-    Drop: { Rate: 0.1, Item: 'Boots of Hermes' },
+    Drop: { Rate: 1, Item: 'Boots of Hermes' },
     Steal: null,
     Type: 'Boss',
     Available: [ 'Post Game' ]
@@ -6474,7 +6474,7 @@ export const Bestiary = [
       DEX: 378
     },
     Arn: 999999,
-    Drop: { Rate: 0.1, Item: 'Crystalline Crown' },
+    Drop: { Rate: 1, Item: 'Crystalline Crown' },
     Steal: null,
     Type: 'Boss',
     Available: [ 'Post Game' ]
@@ -6504,7 +6504,7 @@ export const Bestiary = [
       DEX: 354
     },
     Arn: 999999,
-    Drop: { Rate: 0.1, Item: 'Zeus Mail' },
+    Drop: { Rate: 1, Item: 'Zeus Mail' },
     Steal: null,
     Type: 'Boss',
     Available: [ 'Post Game' ]
@@ -6534,7 +6534,7 @@ export const Bestiary = [
       DEX: 362
     },
     Arn: 999999,
-    Drop: { Rate: 0.1, Item: "Lord-Sorceror's Gown" },
+    Drop: { Rate: 1, Item: "Lord-Sorceror's Gown" },
     Steal: null,
     Type: 'Boss',
     Available: [ 'Post Game' ]
@@ -6564,7 +6564,7 @@ export const Bestiary = [
       DEX: 374
     },
     Arn: 999999,
-    Drop: { Rate: 0.1, Item: "Mashimizu's Robe" },
+    Drop: { Rate: 1, Item: "Mashimizu's Robe" },
     Steal: null,
     Type: 'Boss',
     Available: [ 'Post Game' ]
