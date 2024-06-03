@@ -13,7 +13,7 @@
     display: flex;
     flex-wrap: wrap;
     padding: .5rem;
-    outline: 1px solid var(--border-color);
+    outline: 1px solid var(--color-border-alt);
   }
 
   div header {
