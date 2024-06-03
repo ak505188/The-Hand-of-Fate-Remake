@@ -17,6 +17,10 @@
     --element-water: #0070ff;
     --element-lightning: #ffff00;
     --color-text-alt: #a2b9d3;
+    --color-background: #400000;
+    --color-background-alt: #4e0101;
+    --color-border: yellow;
+    --color-border-alt: #959E26;
   }
 
   :global(body) {

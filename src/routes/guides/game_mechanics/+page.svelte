@@ -119,7 +119,7 @@
   </p>
 
   <p>For all stats, the level multiplier is as follows:</p>
-  <math>L = 3 * (1.035^(Level + 5))</math>
+  <math>L = 3 * (1.035<sup>(Level + 5)</sup>)</math>
 
   <ul>
     The L multiplier is applied differently for the calculations of each stats:
@@ -145,7 +145,7 @@
   <p>
     First of all, the experience/level gain is calculated separately for each enemy. The basic formula to calculate exp is:
   </p>
-  <math>EXP =  1000 * (3^x / 2^x) / 20</math>
+  <math>EXP =  1000 * (3<sup>x</sup> / 2<sup>x</sup>) / 20</math>
   <p>
     Where x is the difference between the enemy's level and the character's level.
   </p>
