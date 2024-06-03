@@ -38,11 +38,10 @@
 
 <style>
   details {
-    --border-color: #959E26;
     --background-color: #4e0101;
     --background-color-alt: #4e0101;
-    background: var(--background-color);
-    box-shadow: 0 0 0 1px var(--border-color);
+    background: var(--color-background-alt);
+    box-shadow: 0 0 0 1px var(--color-border-alt);
   }
 
   details[open] {
