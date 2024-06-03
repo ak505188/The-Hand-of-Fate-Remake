@@ -85,7 +85,7 @@ This is a remake of the now down The Hand of Fate website. It's a website dedica
         - [Doc Link](https://docs.google.com/document/d/1E5Bd5KcVg8OTjkW-Fr4lI4MPqLQ6QiuHFqVryonAEeE/edit?usp=sharing)
       - [x] Comic: The Wanderer
   - [x] Forum
-  - [ ] Contact
+  - [x] Contact
 
 ## Developing
 
