@@ -19,7 +19,10 @@
 <!-- svelte-ignore a11y-click-events-have-key-events a11y-no-noninteractive-element-interactions -->
 <dialog
   bind:this={dialog}
-  on:close={() => showModal = false}
+  on:close={() => {
+    src = ''
+    showModal = false
+  }}
   on:click|self={() => dialog.close()}
 >
   {#if src}
@@ -33,6 +36,7 @@
     padding: 0;
     border: none;
     outline: none;
+		background: rgba(0, 0, 0, 0.5);
   }
 
   img {
