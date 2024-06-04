@@ -14,7 +14,7 @@
 
 </script>
 
-<ImageModal bind:showModal={showModal} src={src}/>
+<ImageModal bind:showModal={showModal} bind:src={src}/>
 <Container>
   <h2>Exit Fate: Treasure Chest List</h2>
   <hr class="border">

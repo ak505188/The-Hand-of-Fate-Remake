@@ -23,7 +23,7 @@
   on:click|self={() => dialog.close()}
 >
   {#if src}
-    <img src={src} alt="">
+    <img src={src} alt=""/>
   {/if}
 </dialog>
 
@@ -40,6 +40,7 @@
     margin: auto;
     width: 100%;
     max-width: 100vw;
+		background: rgba(0, 0, 0, 0.5);
   }
 
 	dialog::backdrop {
