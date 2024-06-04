@@ -20,8 +20,9 @@
   }
 
   div > :global(hr.border) {
-    height: 2px;
+    height: 0px;
     background: yellow;
+    border-color: yellow;
     width: calc(100% - 2px * 2);
     margin: 0;
   }

@@ -1,4 +1,5 @@
 <script>
+  import '@fontsource-variable/noto-serif';
   import Navbar from '$lib/components/navbar.svelte';
 </script>
 
@@ -29,6 +30,8 @@
     background-repeat:repeat;
     background-position:center;
     color: white;
+    font-size: 16px;
+    font-family: 'Noto Serif Variable', serif;
   }
 
   :global(ul, ol) {
