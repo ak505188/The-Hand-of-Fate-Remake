@@ -3,12 +3,21 @@ export default [
     name: 'Stromgaard',
     automatic: false,
     available: 2,
+    method: 1,
     html: `
 <p>
-<b>Method 1</b>: Before taking Sally&#39;s boat from Bayside Town to Blackwater, return to Alfheim and speak to Stromgaard on the first floor of the inn.
+Before taking Sally&#39;s boat from Bayside Town to Blackwater, return to Alfheim and speak to Stromgaard on the first floor of the inn.
 </p>
+`
+  },
+  {
+    name: 'Stromgaard',
+    automatic: false,
+    available: 3,
+    method: 2,
+    html: `
 <p>
-<b>Method 2 (Chapter 3)</b>: Speak to him in Credence.
+Speak to him in Credence.
 </p>
 `
   },
@@ -66,17 +75,13 @@ With a dark-elemental character in your party, speak to Francesca inside her hou
     name: 'Midian',
     automatic: false,
     available: 3,
+    method: 1,
     html: `
-<h4>Method 1</h4>
 <p>
 After recruiting Sally, have her take you to Midian&#39;s Island. Inside Midian&#39;s house, push the box located in the center of the room to the right side of the bookshelf with the chest on it, then proceed to try to reach the chest.
 </p>
 <p>
 Note: This method will not work after the start of Chapter 6.
-</p>
-<h4>Method 2</h4>
-<p>
-Bring Erin to speak with Midian in Midian&rsquo;s Island.
 </p>
 `
   },
@@ -117,6 +122,7 @@ Return the supplies to Bartolli.
     name: 'Paris',
     automatic: false,
     available: 4,
+    method: 1,
     html: `
 <h4>Method 1</h4>
 <p>
@@ -351,8 +357,9 @@ Available after clearing the Elemental Mansion. Find Alex in a semi-hidden area 
     name: 'Meiko',
     automatic: false,
     available: 5,
-    html: `
     castle_function: 'Character Interviews',
+    method: 1,
+    html: `
 <h4>Method 1</h4>
 <p>
 In Blackwater, trigger an interview with her four times. An interview can be triggered after any war battle (including the first Jargo Port City war battle on Chapter 2).
@@ -449,7 +456,20 @@ Bring Nomad to Avalon (south of Amen Corner on world map) and clear the dungeon.
 </li>
 </ul>
 <p>
-Tip: The dungeon&rsquo;s puzzle solution is hinted on the engravings on one of Mt. Bosch cliffs, and the solution is [spoiler]154, based on the roman numerals shown on the engravings[/spoiler].
+Tip: The dungeon&rsquo;s puzzle solution is hinted on the engravings on one of Mt. Bosch cliffs, and the solution is <details class="spoiler"><summary>Spoiler</summary>154, based on the roman numerals shown on the engravings</details>.</p>
+`
+  },
+  {
+    name: 'Paris',
+    automatic: false,
+    available: 6,
+    method: 2,
+    html: `
+<p>
+Achieve A-rank in the Battle of Grunthall in Chapter 3, then speak to Paris in Bergstadt.
+</p>
+<p>
+Note: Without A-rank, he will not join you. Wait until Chapter 6 for the alternative method.
 </p>
 `
   },
@@ -480,6 +500,20 @@ Available after clearing Matrech Catacombs. Bring Teej to speak to her in a nort
     html: `
 <p>
 Available after clearing Matrech Catacombs. Bring Nomad to speak with Marian at her office in Faraday University City academy.
+</p>
+`
+  },
+  {
+    name: 'Midian',
+    automatic: false,
+    available: 7,
+    method: 2,
+    html: `
+<p>
+After recruiting Sally, have her take you to Midian&#39;s Island. Inside Midian&#39;s house, push the box located in the center of the room to the right side of the bookshelf with the chest on it, then proceed to try to reach the chest.
+</p>
+<p>
+Note: This method will not work after the start of Chapter 6.
 </p>
 `
   },
@@ -644,6 +678,18 @@ Joins with Luther.
 `
   },
   {
+    name: 'Meiko',
+    automatic: false,
+    available: 8,
+    castle_function: 'Character Interviews',
+    method: 2,
+    html: `
+<p>
+Speak to her after the Battle at Midgard Plains and she will join you immediately, without having to trigger four separate interviews.
+</p>
+`
+  },
+  {
     name: 'Frore',
     automatic: false,
     available: 8,
@@ -663,13 +709,13 @@ For clues on Frore&rsquo;s location, speak to Kella on Frore&rsquo;s previous lo
 </ul>
 <ul>
 <li>
-Find Frore on [spoiler]Madrigal[/spoiler], and report back to Kella in Trarcia.
+Find Frore on <details class="spoiler"><summary>Spoiler</summary>Madrigal</details>, and report back to Kella in Trarcia.
 </li>
 <li>
-Find Frore on [spoiler]Harlinton Inn[/spoiler], and report back to Kella in Frore&rsquo;s previous location.
+Find Frore on <details class="spoiler"><summary>Spoiler</summary>Harlinton Inn</details>, and report back to Kella in Frore&rsquo;s previous location.
 </li>
 <li>
-Find Frore on [spoiler]Niflheim[/spoiler] to finish the recruitment quest.
+Find Frore on <details class="spoiler"><summary>Spoiler</summary>Niflheim</details> to finish the recruitment quest.
 </li>
 </ul>
 `

@@ -4,23 +4,23 @@
 
 <!-- svelte-ignore a11y-click-events-have-key-events -->
 <!-- svelte-ignore a11y-no-noninteractive-element-interactions -->
-<details on:click={({ target }) => target.open = !target.open}>
+<details class="spoiler" on:click={({ target }) => target.open = !target.open}>
   <summary>{title}</summary>
   <slot/>
 </details>
 
 <style>
-  details {
+  :global(details.spoiler) {
     display: inline;
     color: var(--color-text-alt);
     cursor: pointer;
   }
 
-  details summary {
+  :global(details.spoiler summary) {
     list-style: none;
   }
 
-  details[open] summary, details summary::marker {
+  :global(details[open].spoiler summary), :global(details.spoiler summary::marker) {
     display: none;
   }
 </style>

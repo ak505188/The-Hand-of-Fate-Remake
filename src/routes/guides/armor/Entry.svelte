@@ -37,7 +37,8 @@
     grid-template-columns: 12rem repeat(3, 4rem) auto;
   }
 
-  @media (max-width: 700px) {
+
+  @media (max-width: 640px) {
     .row.row {
       grid-template-columns: 12rem repeat(2, 4rem) auto;
     }

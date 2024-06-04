@@ -4,24 +4,23 @@
 
 <details>
   <summary>
-    {recruit.name}
+    <span class="name">{recruit.name}</span>
+    {#if recruit.method}
+      <span class="method">Method {recruit.method}</span>
+    {/if}
     {#if recruit.available}
-      <span>Chapter {recruit.available}</span>
+      <span class="available">Chapter {recruit.available}</span>
     {/if}
   </summary>
   <div>
     {#if recruit.castle_function}
-      <p>Castle Function: {recruit.castle_function}</p>
+      <p class="castle_function">Castle Function: {recruit.castle_function}</p>
     {/if}
     {@html recruit.html}
   </div>
 </details>
 
 <style>
-  summary {
-    font-size: 1.125rem;
-  }
-
   details {
     background: var(--color-background-alt);
     box-shadow: 0 0 0 1px var(--color-border-alt);
@@ -36,7 +35,16 @@
     padding: .5rem;
   }
 
-  summary span {
+  summary span.name {
+    font-weight: 500;
+  }
+
+  summary span.method:before {
+    content: "-";
+    padding: 0 .25rem;
+  }
+
+  summary span.available {
     margin-left: auto;
   }
 
@@ -56,5 +64,9 @@
   details > div {
     outline: 1px solid var(--color-border-alt);
     padding: .5rem 1rem;
+  }
+
+  details > div :global(ul) {
+    padding-left: 0;
   }
 </style>

@@ -1,7 +1,8 @@
 <script>
-import Container from '$lib/components/container.svelte';
-import Recruits from '$lib/data/recruitment.js';
-import Recruit from './Recruit.svelte';
+  import Container from '$lib/components/container.svelte';
+  import Spoiler from '$lib/components/Spoiler.svelte';
+  import Recruits from '$lib/data/recruitment.js';
+  import Recruit from './Recruit.svelte';
 </script>
 
 <Container>
@@ -25,10 +26,57 @@ import Recruit from './Recruit.svelte';
       <Recruit recruit={recruit}/>
     {/each}
   </section>
+  <section>
+    <h3>All Recruits Reward</h3>
+    <p>
+      After obtaining all 75 characters, open the chest on the basement of Elysium Castle.
+    </p>
+    <p>
+      The first Shadow Boss will now be unlocked (with its location clued from the dialogues), and Battle Plan #23 is also obtained to unlock the hardest bonus war battle.
+    </p>
+    <h4>Shadow Boss Locations</h4>
+    <ol>
+      <li>
+        <Spoiler title="Location">
+          Levier - Inside Daniel’s bedroom in the orphanage second floor
+        </Spoiler>
+      </li>
+      <li>
+        <Spoiler title="Location">
+          Matrech State Capital - Inside Erin’s office in the city hall
+        </Spoiler>
+      </li>
+      <li>
+        <Spoiler title="Location">
+          St. Reinard - Inside the central meeting hall in the castle
+        </Spoiler>
+      </li>
+      <li>
+        <Spoiler title="Location">
+          Muspelheim - Inside the basement room in the inn
+        </Spoiler>
+      </li>
+      <li>
+        <Spoiler title="Location">
+          Alfheim - Inside the bedroom in the inn
+        </Spoiler>
+      </li>
+      <li>
+        <Spoiler title="Location">
+          Nifl Woods
+        </Spoiler>
+      </li>
+    </ol>
+  </section>
 </Container>
 
 <style>
   section {
     margin: 1rem 0;
+  }
+
+  section ol {
+    margin: 0;
+    padding: 0;
   }
 </style>
