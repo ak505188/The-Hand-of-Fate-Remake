@@ -10,23 +10,23 @@
   <p>
     Equipment that grants additional HP will leave the bonus effect intact temporarily after the equipment is removed. However, this will only last until the character takes damage reducing their current HP to their lower maximum HP value or below, until the character is healed (whether they need it or not), or until the end of the first battle after removing the equipment.
   </p>
-  <img src="/images/guides/errors/hp_equipment.png" alt="">
+  <img src="/images/guides/errors/hp_equipment.png" alt=""/>
   <aside>
-    (Reported by <a href="https://www.tapatalk.com/groups/elysium_castle/memberlist.php?mode=viewprofile&u=36">Leonius</a>)
+    (Reported by <a href="//www.tapatalk.com/groups/elysium_castle/memberlist.php?mode=viewprofile&u=36">Leonius</a>)
   </aside>
   <h4>Long-Range Attack Damage Penalty</h4>
   <p>
     Long-range attackers is meant to be able to attack from any position in your party without an ATK penalty.. However, there’s an error in the damage output of long-range attackers, causing them to deal less damage from the middle and back rows, like anyone else would.
   </p>
   <aside>
-    (Reported by <a href="https://www.tapatalk.com/groups/elysium_castle/memberlist.php?mode=viewprofile&u=25">topaz</a>)
+    (Reported by <a href="//www.tapatalk.com/groups/elysium_castle/memberlist.php?mode=viewprofile&u=25">topaz</a>)
   </aside>
   <h4>Level 99! ... Briefly</h4>
   <p>
     Details are unclear on what causes this to happen, but you may occasionally notice a character leveling up far beyond the others in your party in the results screen after a battle -- to level 99 (and "beyond"), actually. However, this is only a visual bug, and the character will return to their proper level once you progress beyond the results screen.
   </p>
   <aside>
-    (Reported by <a href="https://www.tapatalk.com/groups/elysium_castle/memberlist.php?mode=viewprofile&u=71">slicktrick420</a>)
+    (Reported by <a href="//www.tapatalk.com/groups/elysium_castle/memberlist.php?mode=viewprofile&u=71">slicktrick420</a>)
   </aside>
   <h4>Elemental Shield Ineffective vs Physical Abilities</h4>
   <p>
@@ -35,7 +35,7 @@
   <h4>Duplicate Characters</h4>
   <p>
     When the story requires you to put specific characters, they can get duplicated if you already have these characters on the Entourage. On combat, these duplicated characters will share the same stats, while being able to move twice as much! However, they will also take double damage from area attacks.
-    <a href="https://www.youtube.com/watch?v=iWake3peXnI">https://www.youtube.com/watch?v=iWake3peXnI</a>
+    <a href="//www.youtube.com/watch?v=iWake3peXnI">https://www.youtube.com/watch?v=iWake3peXnI</a>
   </p>
   <p>This exploit is only possible for specific story moments:
   <ul>
@@ -72,7 +72,7 @@
   <h4>Self-attack Softlock from Chaos Status</h4>
   <p>
     Character with Chaos status ailment can attack any friendly character, including themself. Attacking themself might cause their sprite to get stuck and infinitely moving downwards, softlocking the game. The chance of this occuring is low, and it’s unclear on why this happened.
-    <a href="https://clips.twitch.tv/ArborealGrossFlamingoDxCat">https://clips.twitch.tv/ArborealGrossFlamingoDxCat</a>
+    <a href="//clips.twitch.tv/ArborealGrossFlamingoDxCat">https://clips.twitch.tv/ArborealGrossFlamingoDxCat</a>
   </p>
 
   <h3 id="War_Battle_Glitches">War Battle Glitches</h3>
@@ -81,7 +81,7 @@
     When you’re attempting to move a unit, and press the Confirm and Cancel keys/buttons simultaneously (this may take multiple attempts), that unit will move to the specified location without using up their turn, allowing them to take another action! This can be repeated as many times as needed, until that unit takes an action that ends its turn.
   </p>
   <aside>
-    (Reported by <a href="https://www.tapatalk.com/groups/elysium_castle/memberlist.php?mode=viewprofile&u=32">Angwa</a>)
+    (Reported by <a href="//www.tapatalk.com/groups/elysium_castle/memberlist.php?mode=viewprofile&u=32">Angwa</a>)
   </aside>
 
   <h4>Sorcery War Units ATK "Penalty"</h4>
@@ -112,7 +112,7 @@
   <h4>Walk Through Fading Dream Puzzle Walls</h4>
   <p>
     In each of the puzzle block, the bottom part of the vertical wall can be walked through, making it easier to complete the puzzle and grabbing the chest. If you tried to return to the puzzle room, the bug is fixed somehow.
-    <a href="https://www.youtube.com/watch?v=aUxENEmKEgM">https://www.youtube.com/watch?v=aUxENEmKEgM</a>
+    <a href="//www.youtube.com/watch?v=aUxENEmKEgM">https://www.youtube.com/watch?v=aUxENEmKEgM</a>
   </p>
 
   <h4>Greyscale Character Portraits</h4>

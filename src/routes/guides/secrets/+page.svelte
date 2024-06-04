@@ -1,7 +1,18 @@
 <script>
+  import ImageModal from '$lib/components/ImageModal.svelte';
+  import Image from './Image.svelte';
   import Container from '$lib/components/container.svelte';
+
+  let src;
+  let showModal = false;
+
+  function openModal(new_src) {
+    src = new_src;
+    showModal = true;
+  }
 </script>
 
+<ImageModal bind:showModal={showModal} bind:src={src}/>
 <Container>
   <h2>Exit Fate: Secrets</h2>
   <hr class="border">
@@ -25,6 +36,10 @@
         If you recruit Stromgaard when you first get the chance to in Alfheim, before leaving Bayside Town with Ljusalf, he'll appear and provide additional dialogue later in Blackwater, when Daniel decides to join the Matrech State Army.
       </p>
       <aside>Reported by Leonius.</aside>
+      <center>
+        <Image base="/images/secrets/blackwater-stromgaard-01" open={openModal}/>
+        <Image base="/images/secrets/blackwater-stromgaard-02" open={openModal}/>
+      </center>
     </li>
 
     <li>
@@ -32,6 +47,11 @@
       <p>
         Bring Col and/or Joe with you when recruiting Deke. Both characters will add extra dialogue when you initially speak to Deke.
       </p>
+      <center>
+        <Image base="/images/secrets/dekerec-01-joe" open={openModal}/>
+        <Image base="/images/secrets/dekerec-02-col" open={openModal}/>
+        <Image base="/images/secrets/dekerec-03-joe" open={openModal}/>
+      </center>
     </li>
 
     <li>
@@ -46,6 +66,13 @@
       <p>
         After recruiting Nashal, speak to her in her room (western end of Elysium Castle, 3rd floor). She will ask about Yan Angwa. After speaking with her, speak to Yan Angwa in his room (northeast 2nd floor) to learn (a little) more about him.
       </p>
+      <center>
+        <Image base="/images/secrets/mandalarec-01-stromgaard" open={openModal}/>
+        <Image base="/images/secrets/mandalarec-02-mandala" open={openModal}/>
+        <Image base="/images/secrets/mandalarec-03-stromgaard" open={openModal}/>
+        <Image base="/images/secrets/mandalarec-04-mandala" open={openModal}/>
+        <Image base="/images/secrets/mandalarec-05-mandala" open={openModal}/>
+      </center>
     </li>
 
     <li>
@@ -60,6 +87,17 @@
       <p>
         The recruitment of Reod requires one of three characters to be present in your party: Joe, Rorschach, or Marcello. All three have their own dialogue, with Marcello's being the most unique:
       </p>
+      <center>
+        <Image base="/images/secrets/reodrec-a01-joe" open={openModal}/>
+        <Image base="/images/secrets/reodrec-a02-joe" open={openModal}/>
+        <Image base="/images/secrets/reodrec-b01-rorschach" open={openModal}/>
+        <Image base="/images/secrets/reodrec-b02-rorschach" open={openModal}/>
+        <Image base="/images/secrets/reodrec-c01-marcello" open={openModal}/>
+        <Image base="/images/secrets/reodrec-c02-reod" open={openModal}/>
+        <Image base="/images/secrets/reodrec-c03-marcello" open={openModal}/>
+        <Image base="/images/secrets/reodrec-c04-marcello" open={openModal}/>
+        <Image base="/images/secrets/reodrec-c05-marcello" open={openModal}/>
+      </center>
     </li>
 
     <li>
@@ -67,6 +105,11 @@
       <p>
         The recruitment of Marcello requires one of three characters to be present in your party, to pick the lock on a door: Joe, Rorschach, or Reod. Each has their own comment on the situation, shown below:
       </p>
+      <center>
+        <Image base="/images/secrets/marcrec-a01-joe" open={openModal}/>
+        <Image base="/images/secrets/marcrec-b01-rorschach" open={openModal}/>
+        <Image base="/images/secrets/marcrec-c01-reod" open={openModal}/>
+      </center>
     </li>
 
     <li>
@@ -74,6 +117,9 @@
       <p>
         If Orlando is present in your party upon confronting Tiamat (to recruit Avelion), he will add some brief "colorful commentary."
       </p>
+      <center>
+        <Image base="/images/secrets/avelrec-01-orlando" open={openModal}/>
+      </center>
     </li>
 
     <li>
@@ -88,6 +134,10 @@
       <p>
         Following the Battle at Vanaheim, some characters around at your castle will have dialogue changes. Two characters of note are Stromgaard and Griever. Stromgaard will thank you for carrying out some sort of "revenge for [his] people," and Griever will request that you bring her with you to storm Vanaheim, so that she may bury a "piece of [her] past." Whatever could these two be referring to? (Hint: See 'A Lost Friend of Past Days' below.)
       </p>
+      <center>
+        <Image base="/images/secrets/postvanaheim-stromgaard" open={openModal}/>
+        <Image base="/images/secrets/postvanaheim-griever" open={openModal}/>
+      </center>
     </li>
 
     <li>
@@ -95,6 +145,14 @@
       <p>
         Upon defeating Leonius at Vanaheim, some characters will add extra dialogue if they are present in your party at the time. These characters are: Bruce, Eander, Jovian, Keyser, and Rorschach.
       </p>
+      <center>
+        <Image base="/images/secrets/leondef-01-eander" open={openModal}/>
+        <Image base="/images/secrets/leondef-02-keyser" open={openModal}/>
+        <Image base="/images/secrets/leondef-03-jovian" open={openModal}/>
+        <Image base="/images/secrets/leondef-04-rorschach" open={openModal}/>
+        <Image base="/images/secrets/leondef-05-bruce" open={openModal}/>
+        <Image base="/images/secrets/leondef-06-bruce" open={openModal}/>
+      </center>
     </li>
 
     <li>
@@ -102,6 +160,9 @@
       <p>
         If Tarlia is present in your party when you defeat Gudrun at Vanaheim, she will appear on-screen and apologize to Gudrun for the way things turned out. (Note: Tarlia's dialogue will not overlap with the 'A Lost Friend of Past Days' scene below. If she, too, is present in the party, then she will appear on-screen, but not say anything.)
       </p>
+      <center>
+        <Image base="/images/secrets/gudrundef-01-tarlia" open={openModal}/>
+      </center>
     </li>
 
     <li>
@@ -114,8 +175,18 @@
     <li>
       <h4>Odin's Ravens</h4>
       <p>
-        In the Spiritual Plane, accessed from the North Almenga Border, is a hidden path leading to an optional boss fight: Hugin and Munin. Although this battle is accessible when you enter the Spiritual Plane for the first time, it is strongly recommended that you wait until the end of the game before attempting it, as the enemies are both level 90. If you are prepared, however, enter the Spiritual Plane and head south. On the next screen, take the path on the right and work your way north. Next, go down, left, up, and examine the next crystal. Make your way around the loop and warp to the next area. This is where the hidden path is. On this screen, you'll see a pillar near a save crystal. (Using this now would be wise.) From the pillar leftward, you can walk further up, and then left, to reach a warp crystal. On the following screen, simply head downward. Daniel will warn you, but keep moving and you'll trigger the battle at the end of the path.
+        In the Spiritual Plane, accessed from the North Almenga Border, is a hidden path leading to an optional boss fight: Hugin and Munin. Although this battle is accessible when you enter the Spiritual Plane for the first time, it is strongly recommended that you wait until the end of the game before attempting it, as the enemies are both level 90. If you are prepared, however, enter the Spiritual Plane and head south. On the next screen, take the path on the right and work your way north. Next, go down, left, up, and examine the next crystal. Make your way around the loop and warp to the next area. This is where the hidden path is. On
+        <a
+          href="/images/secrets/to-huginmunin.jpg"
+          on:click={(e) => {
+            e.preventDefault()
+            openModal("/images/secrets/to-huginmunin.jpg")
+          }}
+        >this screen</a>, you'll see a pillar near a save crystal. (Using this now would be wise.) From the pillar leftward, you can walk further up, and then left, to reach a warp crystal. On the following screen, simply head downward. Daniel will warn you, but keep moving and you'll trigger the battle at the end of the path.
       </p>
+      <center>
+        <Image base="/images/secrets/huginmunin" open={openModal}/>
+      </center>
     </li>
 
     <li>
@@ -141,6 +212,10 @@
         <aside>
           Confirmed by srd_27: Simply recruiting all 75 characters will trigger this scene upon completion. No additional steps are needed.
         </aside>
+        <center>
+          <Image base="/images/secrets/teaser1" open={openModal}/>
+          <Image base="/images/secrets/teaser2" open={openModal}/>
+        </center>
     </li>
   </ul>
 </Container>
