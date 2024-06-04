@@ -124,16 +124,11 @@ Return the supplies to Bartolli.
     available: 4,
     method: 1,
     html: `
-<h4>Method 1</h4>
 <p>
 Achieve A-rank in the Battle of Grunthall in Chapter 3, then speak to Paris in Bergstadt.
 </p>
 <p>
 Note: Without A-rank, he will not join you. Wait until Chapter 6 for the alternative method.
-</p>
-<h4>Method 2</h4>
-<p>
-Bring Rock to speak to him in Ansee.
 </p>
 `
   },
@@ -360,13 +355,8 @@ Available after clearing the Elemental Mansion. Find Alex in a semi-hidden area 
     castle_function: 'Character Interviews',
     method: 1,
     html: `
-<h4>Method 1</h4>
 <p>
 In Blackwater, trigger an interview with her four times. An interview can be triggered after any war battle (including the first Jargo Port City war battle on Chapter 2).
-</p>
-<h4>Method 2</h4>
-<p>
-Speak to her after the Battle at Midgard Plains and she will join you immediately, without having to trigger four separate interviews.
 </p>
 `
   },
@@ -465,12 +455,7 @@ Tip: The dungeon&rsquo;s puzzle solution is hinted on the engravings on one of M
     available: 6,
     method: 2,
     html: `
-<p>
-Achieve A-rank in the Battle of Grunthall in Chapter 3, then speak to Paris in Bergstadt.
-</p>
-<p>
-Note: Without A-rank, he will not join you. Wait until Chapter 6 for the alternative method.
-</p>
+<p>Bring Rock to speak to him in Ansee.</p>
 `
   },
   {
@@ -509,12 +494,7 @@ Available after clearing Matrech Catacombs. Bring Nomad to speak with Marian at 
     available: 7,
     method: 2,
     html: `
-<p>
-After recruiting Sally, have her take you to Midian&#39;s Island. Inside Midian&#39;s house, push the box located in the center of the room to the right side of the bookshelf with the chest on it, then proceed to try to reach the chest.
-</p>
-<p>
-Note: This method will not work after the start of Chapter 6.
-</p>
+<p>Bring Erin to speak with Midian in Midian’s Island.</p>
 `
   },
   {
@@ -699,7 +679,7 @@ Speak to her after the Battle at Midgard Plains and she will join you immediatel
 Frore can first be found in Trarcia during Chapter 7. Talk to him, but he will deny your request to join for now.
 </li>
 <li>
-Tell her Frore&#39;s whereabouts, and this will start the quest on the search for Frore.
+After clearing the Hall of Memories, go to Niflheim and speak to a woman named Kella. Tell her Frore&#39;s whereabouts, and this will start the quest on the search for Frore.
 </li>
 </ul>
 <ul>
