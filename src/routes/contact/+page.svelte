@@ -7,7 +7,7 @@
 
   <ul>
     <li>Website owner: srd_27</li>
-    <li>(Discord contact: @srd_27</li>
+    <li>(Discord contact: @srd_27)</li>
   </ul>
 
   <ul>
