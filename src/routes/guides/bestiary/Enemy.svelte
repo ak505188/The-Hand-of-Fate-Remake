@@ -67,7 +67,7 @@
   }
 
   span.name.boss {
-    font-weight: 600;
+    font-weight: 800;
   }
 
   span.location {
