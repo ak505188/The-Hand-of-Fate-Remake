@@ -3,7 +3,7 @@
 </script>
 
 <svelte:head>
-  <title>The New Hand of Fate</title>
+  <title>Exit Fate Guide</title>
 </svelte:head>
 <Navbar/>
 <slot/>

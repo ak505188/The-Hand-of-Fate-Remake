@@ -9,9 +9,9 @@ This is a remake of the now down The Hand of Fate website. It's a website dedica
   - [x] Index
   - [x] About
   - [x] Download
-  - [ ] Guides
+  - [x] Guides
     - [x] Recruitment Guide
-      - [ ] Improve formatting
+      - [x] Improve formatting
     - [x] About Exit Fate
       - [ ] For font section, use that font on site?
     - [x] Character Guides
@@ -71,7 +71,7 @@ This is a remake of the now down The Hand of Fate website. It's a website dedica
       - [x] Meiko's Interviews
         - [Doc Link](https://docs.google.com/document/d/1jhBzmHvvOIau-0_Il2jntIN0lZEFnjHcnBHL3ptSJFQ/edit?usp=sharing)
         - srd left more instructions for this page
-      - [ ] Secrets
+      - [x] Secrets
         - [ ] Add images and formatting
         - [x] Remove the s21 name at the end, was srd's old account name
       - [x] BGM List
@@ -81,7 +81,7 @@ This is a remake of the now down The Hand of Fate website. It's a website dedica
       - [x] Bugs/Glitches and Mishaps
         - [Doc Link](https://docs.google.com/document/d/11shq2RivooaDxLwwdNfgaxng2JzfaLLT91S3h5MnuT0/edit?usp=sharing)
       - [x] Game Mechanics Formulas
-        - [ ] Make math formulas look good.
+        - [x] ~~Make math formulas look good.~~ Couldn't do anything for square roots.
         - [Doc Link](https://docs.google.com/document/d/1E5Bd5KcVg8OTjkW-Fr4lI4MPqLQ6QiuHFqVryonAEeE/edit?usp=sharing)
       - [x] Comic: The Wanderer
   - [x] Forum
