@@ -3,7 +3,7 @@
 </script>
 
 <Container>
-  <h2>Exit Fate: Johnny's Blackjack Table</h2>
+  <h2>Exit Fate: Bugs/Glitches and Mishaps</h2>
   <hr class="border">
   <h3>Combat Glitches</h3>
   <h4>+HP Equipment Removal</h4>

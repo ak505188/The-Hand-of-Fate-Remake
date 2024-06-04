@@ -233,7 +233,7 @@ export const Encounters = [
   {
     chapter: 7,
     location: "Matrech Catacombs",
-    note: "Enemies only available on first story visit",
+    note: "(** Enemies only available on first story visit)",
     battles: [
       { arn: 682, battle: "1x Matrech Elite + 3x Matrech Knight **" },
       { arn: 700, battle: "5x Matrech Knight **" },

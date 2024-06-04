@@ -34,6 +34,6 @@
   </p>
   <h3>Font</h3>
   <p>
-    Just like this website (since it mimics the game), Exit Fate uses the MS Gothic font face, which is not installed by default on all versions of Windows. If you don't have the font already installed, you can download it <a href="http://www.microsoft.com/typography/fonts/font.aspx?FMID=1269">here</a>.
+    Exit Fate uses the MS Gothic font face, which is not installed by default on all versions of Windows. If you don't have the font already installed, you can download it <a href="http://www.microsoft.com/typography/fonts/font.aspx?FMID=1269">here</a>.
   </p>
 </Container>
