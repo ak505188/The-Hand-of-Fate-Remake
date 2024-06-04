@@ -5,7 +5,7 @@ This is a remake of the now down The Hand of Fate website. It's a website dedica
 [Doc](https://docs.google.com/document/d/1eDxnn6AaU0mFWePfqdkS4Z7PFHT39Wv5yrANILTcMKQ/edit)
 
 ### Progress Checklist
-- [ ] Pages
+- [x] Pages
   - [x] Index
   - [x] About
   - [x] Download
@@ -13,7 +13,6 @@ This is a remake of the now down The Hand of Fate website. It's a website dedica
     - [x] Recruitment Guide
       - [x] Improve formatting
     - [x] About Exit Fate
-      - [ ] For font section, use that font on site?
     - [x] Character Guides
       - [x] Character Stats List & Rankings
         - [Doc Link](https://docs.google.com/spreadsheets/d/10S3wSmxsoxyIEIabitGac4cjVPrQN4rho-GuIPZu470/edit?usp=sharing)
@@ -67,12 +66,12 @@ This is a remake of the now down The Hand of Fate website. It's a website dedica
       - [x] Shiva Passage Guide
       - [x] Johnny's Blackjack Table
       - [x] Bugs/Glitches and Mishaps will go into Extras
-    - [ ] Extras
+    - [x] Extras
       - [x] Meiko's Interviews
         - [Doc Link](https://docs.google.com/document/d/1jhBzmHvvOIau-0_Il2jntIN0lZEFnjHcnBHL3ptSJFQ/edit?usp=sharing)
         - srd left more instructions for this page
       - [x] Secrets
-        - [ ] Add images and formatting
+        - [x] Add images and formatting
         - [x] Remove the s21 name at the end, was srd's old account name
       - [x] BGM List
         - [x] Bayside music is mistakenly listed as “Final Fantasy XI” when it’s should be “IX”
