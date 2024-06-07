@@ -4,7 +4,7 @@
 </script>
 
 <Container>
-  <h2>Exit Fate: Johnny's Blackjack Table</h2>
+  <h2>Exit Fate: Game Mechanics</h2>
   <hr class="border">
   <p>
     Calculator for the hit rate, damage, and character stat formulas are available here.
