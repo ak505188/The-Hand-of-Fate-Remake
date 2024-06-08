@@ -2008,7 +2008,16 @@ export default {
       "lines": "Of course! I'm strong because I'm huge! And if I lose, it's because I wasn't huge enough!"
     }
   ],
-  "Shin": [],
+  "Shin": [
+    {
+      "character": "Meiko",
+      "lines": "Today... Today, I..."
+    },
+    {
+      "character": "Meiko",
+      "lines": "I'm sorry. I just... I was supposed to be interviewing Shin, but... I just can't do it. I can't. I tried, and... he just stood there the whole time, not saying anything, not a word... just staring at me, just him and me alone. I couldn't take it. I'm... I'm really sorry. I don't know who or what he is, but I couldn't feel any signs of life from him, just... a coldness. Like death."
+    },
+  ],
   "Shiro": [
     {
       "character": "Meiko",
