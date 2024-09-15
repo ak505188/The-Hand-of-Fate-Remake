@@ -446,7 +446,7 @@ Bring Nomad to Avalon (south of Amen Corner on world map) and clear the dungeon.
 </li>
 </ul>
 <p>
-Tip: The dungeon&rsquo;s puzzle solution is hinted on the engravings on one of Mt. Bosch cliffs, and the solution is <details class="spoiler"><summary>Spoiler</summary>154, based on the roman numerals shown on the engravings</details>.</p>
+Tip: The dungeon&rsquo;s puzzle solution is hinted on the engravings on one of Mt. Bosch cliffs, and the solution is <details class="spoiler"><summary>Spoiler</summary>158, based on the roman numerals shown on the engravings</details>.</p>
 `
   },
   {
